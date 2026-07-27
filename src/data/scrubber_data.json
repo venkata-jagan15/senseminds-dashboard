@@ -1,0 +1,4843 @@
+{
+  "kpis": {
+    "averageFleetHealth": 64.3,
+    "healthyScrubbersCount": 8,
+    "totalScrubbersCount": 22,
+    "activeAlertsCount": 14,
+    "averageVOC": 0.24,
+    "warningCount": 9,
+    "criticalCount": 5
+  },
+  "scrubbers": [
+    {
+      "id": "AMMONIA-SCRUBBER",
+      "name": "AMMONIA-SCRUBBER",
+      "location": "Unit 1 - Production Zone SCRUBBER",
+      "currentPh": 0.0,
+      "avgPh": 9.8,
+      "minPh": 9.8,
+      "maxPh": 9.8,
+      "stabilityIndex": 100.0,
+      "healthScore": 0.0,
+      "severity": "Critical",
+      "finding": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "alert": "Sensor Connection Error",
+      "qualityFlag": "Offline",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-AMMONIASCRUBBER",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack SCRUBBER",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Offline"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.3,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.27,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.23,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.23,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.22,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.32,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.31,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.32,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.36,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.31,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.21,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.36,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.26,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.3,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.28,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.37,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.27,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.33,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.34,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.44,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.47,
+          "health": 0.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-604",
+      "name": "SCB-604",
+      "location": "Unit 1 - Production Zone 604",
+      "currentPh": 7.21,
+      "avgPh": 7.95,
+      "minPh": 7.2,
+      "maxPh": 11.29,
+      "stabilityIndex": 100.0,
+      "healthScore": 65.0,
+      "severity": "Warning",
+      "finding": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "alert": "Alkaline Scrubber Low pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB604",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 604",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.22,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.21,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.26,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.28,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.37,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.33,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.34,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.44,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.21,
+          "voc": 0.47,
+          "health": 65.0
+        }
+      ]
+    },
+    {
+      "id": "FES-101",
+      "name": "FES-101",
+      "location": "Unit 1 - Production Zone 101",
+      "currentPh": 9.8,
+      "avgPh": 8.99,
+      "minPh": 1.36,
+      "maxPh": 9.8,
+      "stabilityIndex": 100.0,
+      "healthScore": 100.0,
+      "severity": "Normal",
+      "finding": "Healthy",
+      "cause": "Normal Operation",
+      "recommendation": "Continue Stream Monitoring",
+      "alert": "No Alert",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-FES101",
+        "model": "Orbisint CPS11D Electrode",
+        "location": "Synthesis Stack 101",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 8.11,
+          "voc": 0.29,
+          "health": 36.7
+        },
+        {
+          "time": "00:00",
+          "ph": 7.15,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.74,
+          "voc": 0.27,
+          "health": 79.3
+        },
+        {
+          "time": "00:00",
+          "ph": 9.66,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.61,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.64,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.62,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.63,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.64,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.64,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.65,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.63,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.64,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.7,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.63,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.61,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.57,
+          "voc": 0.21,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.63,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.65,
+          "voc": 0.26,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.66,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.66,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.72,
+          "voc": 0.28,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.8,
+          "voc": 0.37,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.8,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.8,
+          "voc": 0.33,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.8,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.8,
+          "voc": 0.34,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.8,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.8,
+          "voc": 0.44,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.8,
+          "voc": 0.47,
+          "health": 100.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-601",
+      "name": "SCB-601",
+      "location": "Unit 1 - Production Zone 601",
+      "currentPh": 8.3,
+      "avgPh": 8.67,
+      "minPh": 7.7,
+      "maxPh": 14.0,
+      "stabilityIndex": 100.0,
+      "healthScore": 65.0,
+      "severity": "Warning",
+      "finding": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "alert": "Alkaline Scrubber Low pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB601",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 601",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 8.28,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.27,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.25,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.26,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.26,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.26,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.26,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.25,
+          "voc": 0.22,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.25,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.23,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.27,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.28,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.29,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.28,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.29,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.29,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.21,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.92,
+          "voc": 0.26,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.32,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.31,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.28,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.37,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.33,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.28,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.34,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.29,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.44,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.3,
+          "voc": 0.47,
+          "health": 65.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-502",
+      "name": "SCB-502",
+      "location": "Unit 1 - Production Zone 502",
+      "currentPh": 9.69,
+      "avgPh": 10.6,
+      "minPh": 1.37,
+      "maxPh": 13.8,
+      "stabilityIndex": 100.0,
+      "healthScore": 100.0,
+      "severity": "Normal",
+      "finding": "Healthy",
+      "cause": "Normal Operation",
+      "recommendation": "Continue Stream Monitoring",
+      "alert": "No Alert",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB502",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 502",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.21,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.26,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.28,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.37,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.33,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.34,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.44,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.69,
+          "voc": 0.47,
+          "health": 100.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-501",
+      "name": "SCB-501",
+      "location": "Unit 1 - Production Zone 501",
+      "currentPh": 11.1,
+      "avgPh": 10.47,
+      "minPh": 1.5,
+      "maxPh": 13.89,
+      "stabilityIndex": 100.0,
+      "healthScore": 100.0,
+      "severity": "Normal",
+      "finding": "Healthy",
+      "cause": "Normal Operation",
+      "recommendation": "Continue Stream Monitoring",
+      "alert": "No Alert",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB501",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 501",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 10.54,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.55,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.3,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.35,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.48,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.37,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.9,
+          "voc": 0.32,
+          "health": 62.8
+        },
+        {
+          "time": "00:00",
+          "ph": 13.89,
+          "voc": 0.31,
+          "health": 59.1
+        },
+        {
+          "time": "00:00",
+          "ph": 13.82,
+          "voc": 0.32,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.76,
+          "voc": 0.36,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.72,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.72,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.67,
+          "voc": 0.31,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.6,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.51,
+          "voc": 0.21,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.08,
+          "voc": 0.36,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.77,
+          "voc": 0.26,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.62,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.62,
+          "voc": 0.3,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.32,
+          "voc": 0.28,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.22,
+          "voc": 0.37,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.19,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.11,
+          "voc": 0.33,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.14,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.19,
+          "voc": 0.34,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.09,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.1,
+          "voc": 0.44,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.1,
+          "voc": 0.47,
+          "health": 100.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-701",
+      "name": "SCB-701",
+      "location": "Unit 1 - Production Zone 701",
+      "currentPh": 0.0,
+      "avgPh": 0.0,
+      "minPh": 0.0,
+      "maxPh": 0.0,
+      "stabilityIndex": 100.0,
+      "healthScore": 0.0,
+      "severity": "Critical",
+      "finding": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "alert": "Sensor Connection Error",
+      "qualityFlag": "Offline",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB701",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 701",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Offline"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.3,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.27,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.23,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.23,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.22,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.32,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.31,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.32,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.36,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.31,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.21,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.36,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.26,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.3,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.28,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.37,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.27,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.33,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.34,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.44,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.47,
+          "health": 0.0
+        }
+      ]
+    },
+    {
+      "id": "FES-102",
+      "name": "FES-102",
+      "location": "Unit 1 - Production Zone 102",
+      "currentPh": 9.5,
+      "avgPh": 9.5,
+      "minPh": 9.5,
+      "maxPh": 9.5,
+      "stabilityIndex": 100.0,
+      "healthScore": 100.0,
+      "severity": "Normal",
+      "finding": "Healthy",
+      "cause": "Normal Operation",
+      "recommendation": "Continue Stream Monitoring",
+      "alert": "No Alert",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-FES102",
+        "model": "Orbisint CPS11D Electrode",
+        "location": "Synthesis Stack 102",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.21,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.26,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.28,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.37,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.33,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.34,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.44,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.47,
+          "health": 100.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-304",
+      "name": "SCB-304",
+      "location": "Unit 1 - Production Zone 304",
+      "currentPh": 9.51,
+      "avgPh": 8.96,
+      "minPh": 0.95,
+      "maxPh": 9.51,
+      "stabilityIndex": 100.0,
+      "healthScore": 100.0,
+      "severity": "Normal",
+      "finding": "Healthy",
+      "cause": "Normal Operation",
+      "recommendation": "Continue Stream Monitoring",
+      "alert": "No Alert",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB304",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 304",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.21,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.26,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.28,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.37,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.33,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.34,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.44,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.47,
+          "health": 100.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-605",
+      "name": "SCB-605",
+      "location": "Unit 1 - Production Zone 605",
+      "currentPh": 8.27,
+      "avgPh": 10.23,
+      "minPh": 7.67,
+      "maxPh": 11.54,
+      "stabilityIndex": 98.0,
+      "healthScore": 65.0,
+      "severity": "Warning",
+      "finding": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "alert": "Alkaline Scrubber Low pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB605",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 605",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 8.33,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.23,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.19,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.69,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.77,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.83,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.12,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.1,
+          "voc": 0.22,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.12,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.77,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.86,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.02,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.81,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.23,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.33,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.06,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.89,
+          "voc": 0.21,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.0,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.11,
+          "voc": 0.26,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.09,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.09,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.13,
+          "voc": 0.28,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.86,
+          "voc": 0.37,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.92,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.84,
+          "voc": 0.33,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.71,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.86,
+          "voc": 0.34,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.67,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.07,
+          "voc": 0.44,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.27,
+          "voc": 0.47,
+          "health": 65.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-303",
+      "name": "SCB-303",
+      "location": "Unit 1 - Production Zone 303",
+      "currentPh": 10.55,
+      "avgPh": 11.14,
+      "minPh": 7.33,
+      "maxPh": 12.89,
+      "stabilityIndex": 95.3,
+      "healthScore": 100.0,
+      "severity": "Normal",
+      "finding": "Healthy",
+      "cause": "Normal Operation",
+      "recommendation": "Continue Stream Monitoring",
+      "alert": "No Alert",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB303",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 303",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 10.51,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.87,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.73,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.56,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.38,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.31,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.34,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.39,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.46,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.64,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.71,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.94,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.14,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.86,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.48,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.36,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.29,
+          "voc": 0.21,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.64,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.83,
+          "voc": 0.26,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.49,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.74,
+          "voc": 0.28,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.83,
+          "voc": 0.37,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.76,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.2,
+          "voc": 0.33,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.38,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.16,
+          "voc": 0.34,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.08,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.02,
+          "voc": 0.44,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.55,
+          "voc": 0.47,
+          "health": 100.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-301",
+      "name": "SCB-301",
+      "location": "Unit 1 - Production Zone 301",
+      "currentPh": 11.5,
+      "avgPh": 11.07,
+      "minPh": 9.96,
+      "maxPh": 12.6,
+      "stabilityIndex": 99.9,
+      "healthScore": 100.0,
+      "severity": "Normal",
+      "finding": "Healthy",
+      "cause": "Normal Operation",
+      "recommendation": "Continue Stream Monitoring",
+      "alert": "No Alert",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB301",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 301",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 10.89,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.89,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.9,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.91,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.96,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.0,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.03,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.09,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.12,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.13,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.15,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.19,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.24,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.28,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.33,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.38,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.42,
+          "voc": 0.21,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.48,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.51,
+          "voc": 0.26,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.43,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.53,
+          "voc": 0.3,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.52,
+          "voc": 0.28,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.56,
+          "voc": 0.37,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.57,
+          "voc": 0.27,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.72,
+          "voc": 0.33,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.8,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.34,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.58,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.51,
+          "voc": 0.44,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.5,
+          "voc": 0.47,
+          "health": 100.0
+        }
+      ]
+    },
+    {
+      "id": "GCB-6-SCRUBBER",
+      "name": "GCB-6-SCRUBBER",
+      "location": "Unit 1 - Production Zone SCRUBBER",
+      "currentPh": 0.0,
+      "avgPh": 0.0,
+      "minPh": 0.0,
+      "maxPh": 0.0,
+      "stabilityIndex": 100.0,
+      "healthScore": 0.0,
+      "severity": "Critical",
+      "finding": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "alert": "Sensor Connection Error",
+      "qualityFlag": "Offline",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-GCB6SCRUBBER",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack SCRUBBER",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Offline"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.3,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.27,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.23,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.23,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.22,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.32,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.31,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.32,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.36,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.29,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.31,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.21,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.36,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.26,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.3,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.28,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.37,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.27,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.33,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.34,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.44,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.47,
+          "health": 0.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-107",
+      "name": "SCB-107",
+      "location": "Unit 1 - Production Zone 107",
+      "currentPh": 0.0,
+      "avgPh": 9.13,
+      "minPh": 0.17,
+      "maxPh": 9.76,
+      "stabilityIndex": 100.0,
+      "healthScore": 0.0,
+      "severity": "Critical",
+      "finding": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "alert": "Sensor Connection Error",
+      "qualityFlag": "Offline",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB107",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 107",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Offline"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 9.48,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.46,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.54,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.54,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.66,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.65,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.66,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.63,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.67,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.57,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.55,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.42,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.5,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.52,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.67,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.58,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.38,
+          "voc": 0.21,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.04,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.16,
+          "voc": 0.26,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.23,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.01,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.74,
+          "voc": 0.28,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.74,
+          "voc": 0.37,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.74,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.74,
+          "voc": 0.33,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.34,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.44,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.47,
+          "health": 0.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-106",
+      "name": "SCB-106",
+      "location": "Unit 1 - Production Zone 106",
+      "currentPh": 0.0,
+      "avgPh": 8.37,
+      "minPh": 0.91,
+      "maxPh": 10.64,
+      "stabilityIndex": 100.0,
+      "healthScore": 0.0,
+      "severity": "Critical",
+      "finding": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "alert": "Sensor Connection Error",
+      "qualityFlag": "Offline",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB106",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 106",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Offline"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 9.05,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.54,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.11,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.13,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.13,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.13,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.12,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.32,
+          "voc": 0.22,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.67,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.51,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.58,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.44,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.34,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.13,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.14,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.74,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.15,
+          "voc": 0.21,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.82,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 9.78,
+          "voc": 0.26,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.15,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.15,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.15,
+          "voc": 0.28,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.15,
+          "voc": 0.37,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.15,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.15,
+          "voc": 0.33,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.34,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.24,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.44,
+          "health": 0.0
+        },
+        {
+          "time": "00:00",
+          "ph": null,
+          "voc": 0.47,
+          "health": 0.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-105",
+      "name": "SCB-105",
+      "location": "Unit 1 - Production Zone 105",
+      "currentPh": 10.7,
+      "avgPh": 11.23,
+      "minPh": 10.54,
+      "maxPh": 13.49,
+      "stabilityIndex": 100.0,
+      "healthScore": 100.0,
+      "severity": "Normal",
+      "finding": "Healthy",
+      "cause": "Normal Operation",
+      "recommendation": "Continue Stream Monitoring",
+      "alert": "No Alert",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB105",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 105",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 10.71,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.73,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.72,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.71,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.23,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.67,
+          "voc": 0.22,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.32,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.29,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.21,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.71,
+          "voc": 0.36,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.7,
+          "voc": 0.26,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.73,
+          "voc": 0.3,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.28,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.69,
+          "voc": 0.37,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.27,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.67,
+          "voc": 0.33,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.67,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.68,
+          "voc": 0.34,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.71,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.7,
+          "voc": 0.44,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 10.7,
+          "voc": 0.47,
+          "health": 100.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-901",
+      "name": "SCB-901",
+      "location": "Unit 1 - Production Zone 901",
+      "currentPh": 11.68,
+      "avgPh": 11.49,
+      "minPh": 11.28,
+      "maxPh": 11.7,
+      "stabilityIndex": 100.0,
+      "healthScore": 75.0,
+      "severity": "Warning",
+      "finding": "Excessive Caustic Feed",
+      "cause": "Over-dosing Caustic Buffer",
+      "recommendation": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "alert": "Alkaline Scrubber High pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB901",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 901",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 11.67,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.3,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.27,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.67,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.67,
+          "voc": 0.23,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.67,
+          "voc": 0.23,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.22,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.32,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.31,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.67,
+          "voc": 0.32,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.36,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.31,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.64,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.63,
+          "voc": 0.21,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.67,
+          "voc": 0.36,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.67,
+          "voc": 0.26,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.65,
+          "voc": 0.3,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.28,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.37,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.69,
+          "voc": 0.27,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.33,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.67,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.34,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.7,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.44,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.47,
+          "health": 75.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-102",
+      "name": "SCB-102",
+      "location": "Unit 1 - Production Zone 102",
+      "currentPh": 7.52,
+      "avgPh": 8.59,
+      "minPh": 0.95,
+      "maxPh": 13.9,
+      "stabilityIndex": 99.9,
+      "healthScore": 65.0,
+      "severity": "Warning",
+      "finding": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "alert": "Alkaline Scrubber Low pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB102",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 102",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 7.46,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.22,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.48,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.48,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.48,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.48,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.48,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.48,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.21,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.26,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.28,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.49,
+          "voc": 0.37,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.5,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.5,
+          "voc": 0.33,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.51,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.34,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.5,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.51,
+          "voc": 0.44,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.52,
+          "voc": 0.47,
+          "health": 65.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-104",
+      "name": "SCB-104",
+      "location": "Unit 1 - Production Zone 104",
+      "currentPh": 12.5,
+      "avgPh": 11.34,
+      "minPh": 10.35,
+      "maxPh": 12.79,
+      "stabilityIndex": 99.7,
+      "healthScore": 75.0,
+      "severity": "Warning",
+      "finding": "Excessive Caustic Feed",
+      "cause": "Over-dosing Caustic Buffer",
+      "recommendation": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "alert": "Alkaline Scrubber High pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB104",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 104",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 11.58,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.3,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.66,
+          "voc": 0.27,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.63,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.61,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.13,
+          "voc": 0.23,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.49,
+          "voc": 0.23,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.49,
+          "voc": 0.22,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.43,
+          "voc": 0.32,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.23,
+          "voc": 0.31,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.06,
+          "voc": 0.32,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.04,
+          "voc": 0.36,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.94,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.76,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.68,
+          "voc": 0.31,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.6,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.57,
+          "voc": 0.21,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.57,
+          "voc": 0.36,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.49,
+          "voc": 0.26,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.49,
+          "voc": 0.24,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.51,
+          "voc": 0.3,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.26,
+          "voc": 0.28,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.54,
+          "voc": 0.37,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.5,
+          "voc": 0.27,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.49,
+          "voc": 0.33,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.54,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.49,
+          "voc": 0.34,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.51,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.53,
+          "voc": 0.44,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.5,
+          "voc": 0.47,
+          "health": 75.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-302",
+      "name": "SCB-302",
+      "location": "Unit 1 - Production Zone 302",
+      "currentPh": 6.54,
+      "avgPh": 7.62,
+      "minPh": 6.08,
+      "maxPh": 9.01,
+      "stabilityIndex": 99.7,
+      "healthScore": 65.0,
+      "severity": "Warning",
+      "finding": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "alert": "Alkaline Scrubber Low pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB302",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 302",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 7.4,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.45,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.34,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.36,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.47,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.24,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.22,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.48,
+          "voc": 0.22,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.59,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.95,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.0,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.75,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.54,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.78,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.86,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.73,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.72,
+          "voc": 0.21,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.62,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.41,
+          "voc": 0.26,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.31,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.28,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 7.12,
+          "voc": 0.28,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 6.97,
+          "voc": 0.37,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 6.82,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 6.73,
+          "voc": 0.33,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 6.86,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 6.8,
+          "voc": 0.34,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 6.69,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 6.57,
+          "voc": 0.44,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 6.54,
+          "voc": 0.47,
+          "health": 65.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-606",
+      "name": "SCB-606",
+      "location": "Unit 1 - Production Zone 606",
+      "currentPh": 13.28,
+      "avgPh": 11.82,
+      "minPh": 4.86,
+      "maxPh": 13.39,
+      "stabilityIndex": 99.4,
+      "healthScore": 75.0,
+      "severity": "Warning",
+      "finding": "Excessive Caustic Feed",
+      "cause": "Over-dosing Caustic Buffer",
+      "recommendation": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "alert": "Alkaline Scrubber High pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB606",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 606",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 13.02,
+          "voc": 0.29,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.14,
+          "voc": 0.3,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.94,
+          "voc": 0.27,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.79,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.49,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.08,
+          "voc": 0.23,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.27,
+          "voc": 0.23,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.02,
+          "voc": 0.22,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.94,
+          "voc": 0.32,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.91,
+          "voc": 0.31,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.95,
+          "voc": 0.32,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.87,
+          "voc": 0.36,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.48,
+          "voc": 0.29,
+          "health": 88.9
+        },
+        {
+          "time": "00:00",
+          "ph": 10.44,
+          "voc": 0.29,
+          "health": 91.7
+        },
+        {
+          "time": "00:00",
+          "ph": 10.57,
+          "voc": 0.31,
+          "health": 100.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.9,
+          "voc": 0.24,
+          "health": 56.4
+        },
+        {
+          "time": "00:00",
+          "ph": 12.72,
+          "voc": 0.21,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.32,
+          "voc": 0.36,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 11.21,
+          "voc": 0.26,
+          "health": 91.1
+        },
+        {
+          "time": "00:00",
+          "ph": 12.32,
+          "voc": 0.24,
+          "health": 66.1
+        },
+        {
+          "time": "00:00",
+          "ph": 13.09,
+          "voc": 0.3,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.6,
+          "voc": 0.28,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.39,
+          "voc": 0.37,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.29,
+          "voc": 0.27,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.9,
+          "voc": 0.33,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.85,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 12.99,
+          "voc": 0.34,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.01,
+          "voc": 0.24,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.22,
+          "voc": 0.44,
+          "health": 75.0
+        },
+        {
+          "time": "00:00",
+          "ph": 13.28,
+          "voc": 0.47,
+          "health": 75.0
+        }
+      ]
+    },
+    {
+      "id": "SCB-103",
+      "name": "SCB-103",
+      "location": "Unit 1 - Production Zone 103",
+      "currentPh": 8.81,
+      "avgPh": 8.44,
+      "minPh": 1.43,
+      "maxPh": 14.0,
+      "stabilityIndex": 100.0,
+      "healthScore": 65.0,
+      "severity": "Warning",
+      "finding": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "alert": "Alkaline Scrubber Low pH",
+      "qualityFlag": "Good",
+      "lastUpdated": "2026-06-30 00:00:00 UTC",
+      "sensor": {
+        "id": "SNS-PH-SCB103",
+        "model": "Mettler Toledo InPro",
+        "location": "Synthesis Stack 103",
+        "lastCalibrated": "2026-07-15",
+        "range": "0.0 - 14.0 pH",
+        "status": "Active"
+      },
+      "history": [
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.23,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.22,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.32,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.29,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.31,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.21,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.8,
+          "voc": 0.36,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.26,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.8,
+          "voc": 0.3,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.82,
+          "voc": 0.28,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.37,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.82,
+          "voc": 0.27,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.84,
+          "voc": 0.33,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.83,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.83,
+          "voc": 0.34,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.24,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.44,
+          "health": 65.0
+        },
+        {
+          "time": "00:00",
+          "ph": 8.81,
+          "voc": 0.47,
+          "health": 65.0
+        }
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALT-AMMONIASCRUBBER",
+      "scrubberId": "AMMONIA-SCRUBBER",
+      "scrubberName": "AMMONIA-SCRUBBER",
+      "type": "Sensor Connection Error",
+      "severity": "Critical",
+      "alertLevel": "Critical",
+      "value": "Sensor Offline",
+      "currentPh": null,
+      "time": "2026-06-30 00:00",
+      "finding": "Scrubber Telemetry Offline",
+      "description": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "possibleCause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "recommendedAction": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB604",
+      "scrubberId": "SCB-604",
+      "scrubberName": "SCB-604",
+      "type": "Alkaline Scrubber Low pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 7.21",
+      "currentPh": 7.21,
+      "time": "2026-06-30 00:00",
+      "finding": "Low Alkali Dosing",
+      "description": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "possibleCause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "recommendedAction": "Increase Caustic Dosing Pump Output",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB601",
+      "scrubberId": "SCB-601",
+      "scrubberName": "SCB-601",
+      "type": "Alkaline Scrubber Low pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 8.3",
+      "currentPh": 8.3,
+      "time": "2026-06-30 00:00",
+      "finding": "Low Alkali Dosing",
+      "description": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "possibleCause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "recommendedAction": "Increase Caustic Dosing Pump Output",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB701",
+      "scrubberId": "SCB-701",
+      "scrubberName": "SCB-701",
+      "type": "Sensor Connection Error",
+      "severity": "Critical",
+      "alertLevel": "Critical",
+      "value": "Sensor Offline",
+      "currentPh": null,
+      "time": "2026-06-30 00:00",
+      "finding": "Scrubber Telemetry Offline",
+      "description": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "possibleCause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "recommendedAction": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB605",
+      "scrubberId": "SCB-605",
+      "scrubberName": "SCB-605",
+      "type": "Alkaline Scrubber Low pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 8.27",
+      "currentPh": 8.27,
+      "time": "2026-06-30 00:00",
+      "finding": "Low Alkali Dosing",
+      "description": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "possibleCause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "recommendedAction": "Increase Caustic Dosing Pump Output",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-GCB6SCRUBBER",
+      "scrubberId": "GCB-6-SCRUBBER",
+      "scrubberName": "GCB-6-SCRUBBER",
+      "type": "Sensor Connection Error",
+      "severity": "Critical",
+      "alertLevel": "Critical",
+      "value": "Sensor Offline",
+      "currentPh": null,
+      "time": "2026-06-30 00:00",
+      "finding": "Scrubber Telemetry Offline",
+      "description": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "possibleCause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "recommendedAction": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB107",
+      "scrubberId": "SCB-107",
+      "scrubberName": "SCB-107",
+      "type": "Sensor Connection Error",
+      "severity": "Critical",
+      "alertLevel": "Critical",
+      "value": "Sensor Offline",
+      "currentPh": null,
+      "time": "2026-06-30 00:00",
+      "finding": "Scrubber Telemetry Offline",
+      "description": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "possibleCause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "recommendedAction": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB106",
+      "scrubberId": "SCB-106",
+      "scrubberName": "SCB-106",
+      "type": "Sensor Connection Error",
+      "severity": "Critical",
+      "alertLevel": "Critical",
+      "value": "Sensor Offline",
+      "currentPh": null,
+      "time": "2026-06-30 00:00",
+      "finding": "Scrubber Telemetry Offline",
+      "description": "Scrubber Telemetry Offline",
+      "cause": "CEMS Sensor Communication Failure",
+      "possibleCause": "CEMS Sensor Communication Failure",
+      "recommendation": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "recommendedAction": "Inspect Modbus Transmitters and Field PLC Cabinets",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB901",
+      "scrubberId": "SCB-901",
+      "scrubberName": "SCB-901",
+      "type": "Alkaline Scrubber High pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 11.68",
+      "currentPh": 11.68,
+      "time": "2026-06-30 00:00",
+      "finding": "Excessive Caustic Feed",
+      "description": "Excessive Caustic Feed",
+      "cause": "Over-dosing Caustic Buffer",
+      "possibleCause": "Over-dosing Caustic Buffer",
+      "recommendation": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "recommendedAction": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB102",
+      "scrubberId": "SCB-102",
+      "scrubberName": "SCB-102",
+      "type": "Alkaline Scrubber Low pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 7.52",
+      "currentPh": 7.52,
+      "time": "2026-06-30 00:00",
+      "finding": "Low Alkali Dosing",
+      "description": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "possibleCause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "recommendedAction": "Increase Caustic Dosing Pump Output",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB104",
+      "scrubberId": "SCB-104",
+      "scrubberName": "SCB-104",
+      "type": "Alkaline Scrubber High pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 12.5",
+      "currentPh": 12.5,
+      "time": "2026-06-30 00:00",
+      "finding": "Excessive Caustic Feed",
+      "description": "Excessive Caustic Feed",
+      "cause": "Over-dosing Caustic Buffer",
+      "possibleCause": "Over-dosing Caustic Buffer",
+      "recommendation": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "recommendedAction": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB302",
+      "scrubberId": "SCB-302",
+      "scrubberName": "SCB-302",
+      "type": "Alkaline Scrubber Low pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 6.54",
+      "currentPh": 6.54,
+      "time": "2026-06-30 00:00",
+      "finding": "Low Alkali Dosing",
+      "description": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "possibleCause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "recommendedAction": "Increase Caustic Dosing Pump Output",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB606",
+      "scrubberId": "SCB-606",
+      "scrubberName": "SCB-606",
+      "type": "Alkaline Scrubber High pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 13.28",
+      "currentPh": 13.28,
+      "time": "2026-06-30 00:00",
+      "finding": "Excessive Caustic Feed",
+      "description": "Excessive Caustic Feed",
+      "cause": "Over-dosing Caustic Buffer",
+      "possibleCause": "Over-dosing Caustic Buffer",
+      "recommendation": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "recommendedAction": "Calibrate Caustic Dosing Pump Feedback Controller",
+      "status": "Open"
+    },
+    {
+      "id": "ALT-SCB103",
+      "scrubberId": "SCB-103",
+      "scrubberName": "SCB-103",
+      "type": "Alkaline Scrubber Low pH",
+      "severity": "Warning",
+      "alertLevel": "Warning",
+      "value": "pH: 8.81",
+      "currentPh": 8.81,
+      "time": "2026-06-30 00:00",
+      "finding": "Low Alkali Dosing",
+      "description": "Low Alkali Dosing",
+      "cause": "Insufficient Caustic Injection Flow Rate",
+      "possibleCause": "Insufficient Caustic Injection Flow Rate",
+      "recommendation": "Increase Caustic Dosing Pump Output",
+      "recommendedAction": "Increase Caustic Dosing Pump Output",
+      "status": "Open"
+    }
+  ]
+}

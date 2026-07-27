@@ -1,0 +1,2155 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Laurus Labs Unit 1",
+      "type": "Plant",
+      "properties": {
+        "name": "Laurus Labs Unit 1",
+        "location": "Visakhapatnam, India",
+        "type": "Plant",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 1,
+      "name": "FES-102 Scrubber",
+      "type": "Equipment",
+      "properties": {
+        "name": "FES-102 Scrubber",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 2,
+      "name": "FES-102 Scrubber pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "FES-102 Scrubber pH Sensor",
+        "type": "Sensor",
+        "current_value": 9.5
+      }
+    },
+    {
+      "id": 3,
+      "name": "FES-102 Scrubber Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 77.5,
+        "name": "FES-102 Scrubber Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 4,
+      "name": "FES-102 Scrubber Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "FES-102 Scrubber Standard pH Neutralization",
+        "type": "Finding",
+        "value": 9.5
+      }
+    },
+    {
+      "id": 5,
+      "name": "FES-102 Scrubber Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "FES-102 Scrubber Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 6,
+      "name": "SCB-102",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-102",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 7,
+      "name": "SCB-102 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-102 pH Sensor",
+        "type": "Sensor",
+        "current_value": 7.52
+      }
+    },
+    {
+      "id": 8,
+      "name": "SCB-102 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 47.8,
+        "name": "SCB-102 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 9,
+      "name": "SCB-102 Low pH",
+      "type": "Finding",
+      "properties": {
+        "severity": "Critical",
+        "name": "SCB-102 Low pH",
+        "type": "Finding",
+        "value": 7.52
+      }
+    },
+    {
+      "id": 10,
+      "name": "SCB-102 Alkali Deficit",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-102 Alkali Deficit",
+        "description": "Chemical scrubbing efficiency compromised due to lack of alkali buffer.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 11,
+      "name": "SCB-102 Low Caustic Dosing",
+      "type": "Root Cause",
+      "properties": {
+        "probable_cause": "Caustic pump line blockage or supply failure",
+        "name": "SCB-102 Low Caustic Dosing",
+        "type": "Root Cause"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Verify SCB-102 Caustic Feed Line & Increase Pump Flow",
+      "type": "Recommendation",
+      "properties": {
+        "name": "Verify SCB-102 Caustic Feed Line & Increase Pump Flow",
+        "action": "Inspect dosing pump valves and run alkali calibration",
+        "type": "Recommendation"
+      }
+    },
+    {
+      "id": 13,
+      "name": "SCB-103",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-103",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 14,
+      "name": "SCB-103 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-103 pH Sensor",
+        "type": "Sensor",
+        "current_value": 8.81
+      }
+    },
+    {
+      "id": 15,
+      "name": "SCB-103 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 67.2,
+        "name": "SCB-103 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 16,
+      "name": "SCB-103 Low pH",
+      "type": "Finding",
+      "properties": {
+        "severity": "Critical",
+        "name": "SCB-103 Low pH",
+        "type": "Finding",
+        "value": 8.81
+      }
+    },
+    {
+      "id": 17,
+      "name": "SCB-103 Alkali Deficit",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-103 Alkali Deficit",
+        "description": "Chemical scrubbing efficiency compromised due to lack of alkali buffer.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 18,
+      "name": "SCB-103 Low Caustic Dosing",
+      "type": "Root Cause",
+      "properties": {
+        "probable_cause": "Caustic pump line blockage or supply failure",
+        "name": "SCB-103 Low Caustic Dosing",
+        "type": "Root Cause"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Verify SCB-103 Caustic Feed Line & Increase Pump Flow",
+      "type": "Recommendation",
+      "properties": {
+        "name": "Verify SCB-103 Caustic Feed Line & Increase Pump Flow",
+        "action": "Inspect dosing pump valves and run alkali calibration",
+        "type": "Recommendation"
+      }
+    },
+    {
+      "id": 20,
+      "name": "SCB-301",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-301",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 21,
+      "name": "SCB-301 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-301 pH Sensor",
+        "type": "Sensor",
+        "current_value": 11.5
+      }
+    },
+    {
+      "id": 22,
+      "name": "SCB-301 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 92.5,
+        "name": "SCB-301 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 23,
+      "name": "SCB-301 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-301 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 11.5
+      }
+    },
+    {
+      "id": 24,
+      "name": "SCB-301 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-301 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 25,
+      "name": "SCB-302",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-302",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 26,
+      "name": "SCB-302 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-302 pH Sensor",
+        "type": "Sensor",
+        "current_value": 6.54
+      }
+    },
+    {
+      "id": 27,
+      "name": "SCB-302 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 33.1,
+        "name": "SCB-302 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 28,
+      "name": "SCB-302 Low pH",
+      "type": "Finding",
+      "properties": {
+        "severity": "Critical",
+        "name": "SCB-302 Low pH",
+        "type": "Finding",
+        "value": 6.54
+      }
+    },
+    {
+      "id": 29,
+      "name": "SCB-302 Alkali Deficit",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-302 Alkali Deficit",
+        "description": "Chemical scrubbing efficiency compromised due to lack of alkali buffer.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 30,
+      "name": "SCB-302 Low Caustic Dosing",
+      "type": "Root Cause",
+      "properties": {
+        "probable_cause": "Caustic pump line blockage or supply failure",
+        "name": "SCB-302 Low Caustic Dosing",
+        "type": "Root Cause"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Verify SCB-302 Caustic Feed Line & Increase Pump Flow",
+      "type": "Recommendation",
+      "properties": {
+        "name": "Verify SCB-302 Caustic Feed Line & Increase Pump Flow",
+        "action": "Inspect dosing pump valves and run alkali calibration",
+        "type": "Recommendation"
+      }
+    },
+    {
+      "id": 32,
+      "name": "SCB-303",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-303",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 33,
+      "name": "SCB-303 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-303 pH Sensor",
+        "type": "Sensor",
+        "current_value": 10.55
+      }
+    },
+    {
+      "id": 34,
+      "name": "SCB-303 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 93.3,
+        "name": "SCB-303 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 35,
+      "name": "SCB-303 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-303 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 10.55
+      }
+    },
+    {
+      "id": 36,
+      "name": "SCB-303 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-303 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 37,
+      "name": "SCB-304",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-304",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 38,
+      "name": "SCB-304 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-304 pH Sensor",
+        "type": "Sensor",
+        "current_value": 9.51
+      }
+    },
+    {
+      "id": 39,
+      "name": "SCB-304 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 77.7,
+        "name": "SCB-304 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 40,
+      "name": "SCB-304 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-304 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 9.51
+      }
+    },
+    {
+      "id": 41,
+      "name": "SCB-304 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-304 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 42,
+      "name": "SCB-501",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-501",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 43,
+      "name": "SCB-501 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-501 pH Sensor",
+        "type": "Sensor",
+        "current_value": 11.1
+      }
+    },
+    {
+      "id": 44,
+      "name": "SCB-501 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 98.5,
+        "name": "SCB-501 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 45,
+      "name": "SCB-501 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-501 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 11.1
+      }
+    },
+    {
+      "id": 46,
+      "name": "SCB-501 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-501 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 47,
+      "name": "SCB-502",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-502",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 48,
+      "name": "SCB-502 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-502 pH Sensor",
+        "type": "Sensor",
+        "current_value": 9.69
+      }
+    },
+    {
+      "id": 49,
+      "name": "SCB-502 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 80.3,
+        "name": "SCB-502 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 50,
+      "name": "SCB-502 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-502 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 9.69
+      }
+    },
+    {
+      "id": 51,
+      "name": "SCB-502 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-502 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 52,
+      "name": "SCB-601",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-601",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 53,
+      "name": "SCB-601 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-601 pH Sensor",
+        "type": "Sensor",
+        "current_value": 8.3
+      }
+    },
+    {
+      "id": 54,
+      "name": "SCB-601 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 59.5,
+        "name": "SCB-601 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 55,
+      "name": "SCB-601 Low pH",
+      "type": "Finding",
+      "properties": {
+        "severity": "Critical",
+        "name": "SCB-601 Low pH",
+        "type": "Finding",
+        "value": 8.3
+      }
+    },
+    {
+      "id": 56,
+      "name": "SCB-601 Alkali Deficit",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-601 Alkali Deficit",
+        "description": "Chemical scrubbing efficiency compromised due to lack of alkali buffer.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 57,
+      "name": "SCB-601 Low Caustic Dosing",
+      "type": "Root Cause",
+      "properties": {
+        "probable_cause": "Caustic pump line blockage or supply failure",
+        "name": "SCB-601 Low Caustic Dosing",
+        "type": "Root Cause"
+      }
+    },
+    {
+      "id": 58,
+      "name": "Verify SCB-601 Caustic Feed Line & Increase Pump Flow",
+      "type": "Recommendation",
+      "properties": {
+        "name": "Verify SCB-601 Caustic Feed Line & Increase Pump Flow",
+        "action": "Inspect dosing pump valves and run alkali calibration",
+        "type": "Recommendation"
+      }
+    },
+    {
+      "id": 59,
+      "name": "SCB-604",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-604",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 60,
+      "name": "SCB-604 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-604 pH Sensor",
+        "type": "Sensor",
+        "current_value": 7.21
+      }
+    },
+    {
+      "id": 61,
+      "name": "SCB-604 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 43.1,
+        "name": "SCB-604 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 62,
+      "name": "SCB-604 Low pH",
+      "type": "Finding",
+      "properties": {
+        "severity": "Critical",
+        "name": "SCB-604 Low pH",
+        "type": "Finding",
+        "value": 7.21
+      }
+    },
+    {
+      "id": 63,
+      "name": "SCB-604 Alkali Deficit",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-604 Alkali Deficit",
+        "description": "Chemical scrubbing efficiency compromised due to lack of alkali buffer.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 64,
+      "name": "SCB-604 Low Caustic Dosing",
+      "type": "Root Cause",
+      "properties": {
+        "probable_cause": "Caustic pump line blockage or supply failure",
+        "name": "SCB-604 Low Caustic Dosing",
+        "type": "Root Cause"
+      }
+    },
+    {
+      "id": 65,
+      "name": "Verify SCB-604 Caustic Feed Line & Increase Pump Flow",
+      "type": "Recommendation",
+      "properties": {
+        "name": "Verify SCB-604 Caustic Feed Line & Increase Pump Flow",
+        "action": "Inspect dosing pump valves and run alkali calibration",
+        "type": "Recommendation"
+      }
+    },
+    {
+      "id": 66,
+      "name": "SCB-605",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-605",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 67,
+      "name": "SCB-605 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-605 pH Sensor",
+        "type": "Sensor",
+        "current_value": 8.27
+      }
+    },
+    {
+      "id": 68,
+      "name": "SCB-605 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 59.0,
+        "name": "SCB-605 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 69,
+      "name": "SCB-605 Low pH",
+      "type": "Finding",
+      "properties": {
+        "severity": "Critical",
+        "name": "SCB-605 Low pH",
+        "type": "Finding",
+        "value": 8.27
+      }
+    },
+    {
+      "id": 70,
+      "name": "SCB-605 Alkali Deficit",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-605 Alkali Deficit",
+        "description": "Chemical scrubbing efficiency compromised due to lack of alkali buffer.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 71,
+      "name": "SCB-605 Low Caustic Dosing",
+      "type": "Root Cause",
+      "properties": {
+        "probable_cause": "Caustic pump line blockage or supply failure",
+        "name": "SCB-605 Low Caustic Dosing",
+        "type": "Root Cause"
+      }
+    },
+    {
+      "id": 72,
+      "name": "Verify SCB-605 Caustic Feed Line & Increase Pump Flow",
+      "type": "Recommendation",
+      "properties": {
+        "name": "Verify SCB-605 Caustic Feed Line & Increase Pump Flow",
+        "action": "Inspect dosing pump valves and run alkali calibration",
+        "type": "Recommendation"
+      }
+    },
+    {
+      "id": 73,
+      "name": "SCB-606",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-606",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 74,
+      "name": "SCB-606 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-606 pH Sensor",
+        "type": "Sensor",
+        "current_value": 13.28
+      }
+    },
+    {
+      "id": 75,
+      "name": "SCB-606 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 65.8,
+        "name": "SCB-606 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 76,
+      "name": "SCB-606 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-606 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 13.28
+      }
+    },
+    {
+      "id": 77,
+      "name": "SCB-606 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-606 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 78,
+      "name": "SCB-901",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-901",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 79,
+      "name": "SCB-901 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-901 pH Sensor",
+        "type": "Sensor",
+        "current_value": 11.68
+      }
+    },
+    {
+      "id": 80,
+      "name": "SCB-901 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 89.8,
+        "name": "SCB-901 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 81,
+      "name": "SCB-901 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-901 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 11.68
+      }
+    },
+    {
+      "id": 82,
+      "name": "SCB-901 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-901 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 83,
+      "name": "SCB-105",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-105",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 84,
+      "name": "SCB-105 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-105 pH Sensor",
+        "type": "Sensor",
+        "current_value": 10.7
+      }
+    },
+    {
+      "id": 85,
+      "name": "SCB-105 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 95.5,
+        "name": "SCB-105 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 86,
+      "name": "SCB-105 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-105 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 10.7
+      }
+    },
+    {
+      "id": 87,
+      "name": "SCB-105 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-105 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 88,
+      "name": "SCB-106",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-106",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 89,
+      "name": "SCB-106 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-106 pH Sensor",
+        "type": "Sensor",
+        "current_value": 10.15
+      }
+    },
+    {
+      "id": 90,
+      "name": "SCB-106 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 87.2,
+        "name": "SCB-106 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 91,
+      "name": "SCB-106 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-106 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 10.15
+      }
+    },
+    {
+      "id": 92,
+      "name": "SCB-106 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-106 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 93,
+      "name": "SCB-107",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-107",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 94,
+      "name": "SCB-107 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-107 pH Sensor",
+        "type": "Sensor",
+        "current_value": 8.74
+      }
+    },
+    {
+      "id": 95,
+      "name": "SCB-107 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 66.1,
+        "name": "SCB-107 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 96,
+      "name": "SCB-107 Low pH",
+      "type": "Finding",
+      "properties": {
+        "severity": "Critical",
+        "name": "SCB-107 Low pH",
+        "type": "Finding",
+        "value": 8.74
+      }
+    },
+    {
+      "id": 97,
+      "name": "SCB-107 Alkali Deficit",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-107 Alkali Deficit",
+        "description": "Chemical scrubbing efficiency compromised due to lack of alkali buffer.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 98,
+      "name": "SCB-107 Low Caustic Dosing",
+      "type": "Root Cause",
+      "properties": {
+        "probable_cause": "Caustic pump line blockage or supply failure",
+        "name": "SCB-107 Low Caustic Dosing",
+        "type": "Root Cause"
+      }
+    },
+    {
+      "id": 99,
+      "name": "Verify SCB-107 Caustic Feed Line & Increase Pump Flow",
+      "type": "Recommendation",
+      "properties": {
+        "name": "Verify SCB-107 Caustic Feed Line & Increase Pump Flow",
+        "action": "Inspect dosing pump valves and run alkali calibration",
+        "type": "Recommendation"
+      }
+    },
+    {
+      "id": 100,
+      "name": "Ammonia Scrubber",
+      "type": "Equipment",
+      "properties": {
+        "name": "Ammonia Scrubber",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 101,
+      "name": "Ammonia Scrubber pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "Ammonia Scrubber pH Sensor",
+        "type": "Sensor",
+        "current_value": 9.8
+      }
+    },
+    {
+      "id": 102,
+      "name": "Ammonia Scrubber Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 82.0,
+        "name": "Ammonia Scrubber Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 103,
+      "name": "Ammonia Scrubber Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "Ammonia Scrubber Standard pH Neutralization",
+        "type": "Finding",
+        "value": 9.8
+      }
+    },
+    {
+      "id": 104,
+      "name": "Ammonia Scrubber Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "Ammonia Scrubber Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 105,
+      "name": "SCB-104",
+      "type": "Equipment",
+      "properties": {
+        "name": "SCB-104",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 106,
+      "name": "SCB-104 pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "SCB-104 pH Sensor",
+        "type": "Sensor",
+        "current_value": 12.5
+      }
+    },
+    {
+      "id": 107,
+      "name": "SCB-104 Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 77.5,
+        "name": "SCB-104 Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 108,
+      "name": "SCB-104 Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "SCB-104 Standard pH Neutralization",
+        "type": "Finding",
+        "value": 12.5
+      }
+    },
+    {
+      "id": 109,
+      "name": "SCB-104 Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "SCB-104 Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 110,
+      "name": "FES-101 Scrubber",
+      "type": "Equipment",
+      "properties": {
+        "name": "FES-101 Scrubber",
+        "type": "Equipment",
+        "status": "Active"
+      }
+    },
+    {
+      "id": 111,
+      "name": "FES-101 Scrubber pH Sensor",
+      "type": "Sensor",
+      "properties": {
+        "unit": "pH",
+        "name": "FES-101 Scrubber pH Sensor",
+        "type": "Sensor",
+        "current_value": 9.8
+      }
+    },
+    {
+      "id": 112,
+      "name": "FES-101 Scrubber Health Rating",
+      "type": "Health",
+      "properties": {
+        "score": 82.0,
+        "name": "FES-101 Scrubber Health Rating",
+        "type": "Health"
+      }
+    },
+    {
+      "id": 113,
+      "name": "FES-101 Scrubber Standard pH Neutralization",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "FES-101 Scrubber Standard pH Neutralization",
+        "type": "Finding",
+        "value": 9.8
+      }
+    },
+    {
+      "id": 114,
+      "name": "FES-101 Scrubber Optimal Neutralization",
+      "type": "Diagnosis",
+      "properties": {
+        "name": "FES-101 Scrubber Optimal Neutralization",
+        "description": "Scrubber chemical parameters within regulatory bounds.",
+        "type": "Diagnosis"
+      }
+    },
+    {
+      "id": 115,
+      "name": "Stack VOC CEMS",
+      "type": "Sensor",
+      "properties": {
+        "unit": "µg/m³",
+        "name": "Stack VOC CEMS",
+        "type": "Sensor",
+        "current_value": 0.47
+      }
+    },
+    {
+      "id": 116,
+      "name": "Standard Air Emissions",
+      "type": "Finding",
+      "properties": {
+        "severity": "Normal",
+        "name": "Standard Air Emissions",
+        "type": "Finding",
+        "value": 0.47
+      }
+    },
+    {
+      "id": 117,
+      "name": "SCB-501 ML Anomaly Alert",
+      "type": "ML Finding",
+      "properties": {
+        "severity": "Critical",
+        "anomaly_score": 0.598,
+        "confidence": 0.82,
+        "name": "SCB-501 ML Anomaly Alert",
+        "type": "ML Finding",
+        "explanation": "The Isolation Forest anomaly detector flagged wet scrubber 'SCB-501' with an outlier score of 0.60 due to the inconsistent behavior of the system's indicators. Specifically, the rising Stack VOC (38.5 ug/m3) is not accompanied by a corresponding increase in caustic flow rate (1.2 L/min), which is expected to mitigate VOC emissions. This discrepancy, combined with the elevated pH (9.168666666666669), suggests a potential anomaly in the scrubber's operation."
+      }
+    },
+    {
+      "id": 118,
+      "name": "SCB-103 ML Anomaly Alert",
+      "type": "ML Finding",
+      "properties": {
+        "severity": "Warning",
+        "anomaly_score": 0.668,
+        "confidence": 0.82,
+        "name": "SCB-103 ML Anomaly Alert",
+        "type": "ML Finding",
+        "explanation": "The Isolation Forest anomaly detector flagged wet scrubber 'SCB-103' with an outlier score of 0.67 due to the inconsistent behavior of the system's indicators. Specifically, the pH is elevated at 9.365555555555556, indicating a potential alkaline condition, while the caustic flow rate is decreased at 1.2 L/min, suggesting a reduced scrubbing capacity. \n\nThe anomaly is further supported by the rising Stack VOC at 38.5 ug/m3, which contradicts the expected decrease in VOC emissions as a result of the wet scrubbing process. This combination of indicators, particularly the relative drift of pH, caustic flow rate, and VOC emissions, indicates a potential system malfunction or inefficiency, warranting further investigation."
+      }
+    },
+    {
+      "id": 119,
+      "name": "SCB-106 ML Anomaly Alert",
+      "type": "ML Finding",
+      "properties": {
+        "severity": "Warning",
+        "anomaly_score": 0.737,
+        "confidence": 0.82,
+        "name": "SCB-106 ML Anomaly Alert",
+        "type": "ML Finding",
+        "explanation": "The Isolation Forest anomaly detector flagged wet scrubber 'SCB-106' due to the inconsistent behavior of its indicators, which deviate from expected trends. Specifically, the pH is elevated (9.16684210526316), indicating a potential caustic overdose, while the caustic flow rate is low (1.2 L/min), suggesting a reduced caustic demand. \n\nThe relative drift of the indicators is linked to the rising Stack VOC (38.5 ug/m3), which typically correlates with a decrease in pH and an increase in caustic flow rate. The observed anomaly is likely due to the unexpected combination of these indicators, where the pH is high and the caustic flow rate is low, despite the rising VOC levels. This inconsistency is indicative of a potential process control issue or equipment malfunction, warranting further investigation."
+      }
+    },
+    {
+      "id": 120,
+      "name": "SCB-604 ML Anomaly Alert",
+      "type": "ML Finding",
+      "properties": {
+        "severity": "Warning",
+        "anomaly_score": 1.0,
+        "confidence": 0.82,
+        "name": "SCB-604 ML Anomaly Alert",
+        "type": "ML Finding",
+        "explanation": "The Isolation Forest anomaly detector flagged wet scrubber 'SCB-604' with an outlier score of 1.00 due to the unexpected combination of rising Stack VOC (38.5 ug/m3) concurrent with a decrease in caustic flow rate (1.2 L/min) and a slight increase in pH (9.5425). This anomaly is statistically significant because the relative drift of the indicators is inconsistent with typical wet scrubber operation, where a decrease in caustic flow rate would typically result in a decrease in pH and an increase in Stack VOC. The Isolation Forest algorithm identified this unusual pattern as an outlier."
+      }
+    },
+    {
+      "id": 121,
+      "name": "FES-101 Scrubber ML Anomaly Alert",
+      "type": "ML Finding",
+      "properties": {
+        "severity": "Warning",
+        "anomaly_score": 0.642,
+        "confidence": 0.82,
+        "name": "FES-101 Scrubber ML Anomaly Alert",
+        "type": "ML Finding",
+        "explanation": "The Isolation Forest anomaly detector flagged the wet scrubber 'FES-101 Scrubber' with an outlier score of 0.64 due to the unusual combination of telemetry readings. Specifically, the rising Stack VOC (38.5 ug/m3) is inconsistent with the expected decrease in VOC emissions as the caustic flow rate decreases (1.2 L/min). This discrepancy, coupled with the relatively stable pH level (9.2685), suggests a potential anomaly in the scrubber's operation."
+      }
+    },
+    {
+      "id": 122,
+      "name": "Emissions Trend Forecast",
+      "type": "Forecast",
+      "properties": {
+        "ph_4h": 9.78,
+        "forecasting_method": "Holt-Winters Exponential Smoothing",
+        "voc_30m": 0.32,
+        "ph_1h": 9.77,
+        "name": "Emissions Trend Forecast",
+        "voc_1h": 0.32,
+        "type": "Forecast",
+        "explanation": "The forecasted stable trend for wet scrubber VOC parameters indicates a consistent reduction in VOC emissions over the next 4 hours, with projected values remaining at 0.32. This stable trend is attributed to the Holt-Winters exponential smoothing model, which analyzed recent telemetry trends and identified a steady decline in VOC emissions due to optimized scrubber performance and reduced process variability.\n\nThe Holt-Winters model extrapolated this trajectory by applying the following parameters:\n\n- Alpha (α) = 0.2: smoothing factor for level component, indicating a moderate rate of change in VOC emissions.\n- Beta (β) = 0.1: smoothing factor for trend component, indicating a slow rate of change in VOC emissions.\n- Gamma (γ) = 0.05: smoothing factor for seasonality component, indicating minimal seasonal variation in VOC emissions.\n\nThese parameters were derived from recent telemetry data, which showed a consistent decline in VOC emissions over the past 24 hours. The model's extrapolation of this trend suggests that VOC emissions will remain stable over the next 4 hours, with minimal risk of sudden changes or deviations.",
+        "ph_30m": 9.76,
+        "voc_4h": 0.32
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": 1152921504606846976,
+      "source": "Laurus Labs Unit 1",
+      "target": "FES-102 Scrubber",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1155173304420532224,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-102",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1157425104234217472,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-103",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1159676904047902720,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-301",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1161928703861587968,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-302",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1164180503675273216,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-303",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1166432303488958464,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-304",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1168684103302643712,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-501",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1170935903116328960,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-502",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1173187702930014208,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-601",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1175439502743699456,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-604",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1177691302557384704,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-605",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1179943102371069952,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-606",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1182194902184755200,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-901",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1184446701998440448,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-105",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1186698501812125696,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-106",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1188950301625810944,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-107",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1191202101439496192,
+      "source": "Laurus Labs Unit 1",
+      "target": "Ammonia Scrubber",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1193453901253181440,
+      "source": "Laurus Labs Unit 1",
+      "target": "SCB-104",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 1195705701066866688,
+      "source": "Laurus Labs Unit 1",
+      "target": "FES-101 Scrubber",
+      "type": "HAS_EQUIPMENT",
+      "properties": {}
+    },
+    {
+      "id": 6917530127152709747,
+      "source": "Laurus Labs Unit 1",
+      "target": "Stack VOC CEMS",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 6917537823734104186,
+      "source": "Laurus Labs Unit 1",
+      "target": "Emissions Trend Forecast",
+      "type": "HAS_FORECAST",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474753,
+      "source": "FES-102 Scrubber",
+      "target": "FES-102 Scrubber pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102529,
+      "source": "FES-102 Scrubber",
+      "target": "FES-102 Scrubber Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730306,
+      "source": "FES-102 Scrubber pH Sensor",
+      "target": "FES-102 Scrubber Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358084,
+      "source": "FES-102 Scrubber Standard pH Neutralization",
+      "target": "FES-102 Scrubber Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474758,
+      "source": "SCB-102",
+      "target": "SCB-102 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102534,
+      "source": "SCB-102",
+      "target": "SCB-102 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730311,
+      "source": "SCB-102 pH Sensor",
+      "target": "SCB-102 Low pH",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358089,
+      "source": "SCB-102 Low pH",
+      "target": "SCB-102 Alkali Deficit",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152927002164985866,
+      "source": "SCB-102 Alkali Deficit",
+      "target": "SCB-102 Low Caustic Dosing",
+      "type": "HAS_ROOT_CAUSE",
+      "properties": {}
+    },
+    {
+      "id": 1152928101676613643,
+      "source": "SCB-102 Low Caustic Dosing",
+      "target": "Verify SCB-102 Caustic Feed Line & Increase Pump Flow",
+      "type": "HAS_RECOMMENDATION",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474765,
+      "source": "SCB-103",
+      "target": "SCB-103 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102541,
+      "source": "SCB-103",
+      "target": "SCB-103 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152929201188241421,
+      "source": "SCB-103",
+      "target": "SCB-103 ML Anomaly Alert",
+      "type": "HAS_ANOMALY",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730318,
+      "source": "SCB-103 pH Sensor",
+      "target": "SCB-103 Low pH",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358096,
+      "source": "SCB-103 Low pH",
+      "target": "SCB-103 Alkali Deficit",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152927002164985873,
+      "source": "SCB-103 Alkali Deficit",
+      "target": "SCB-103 Low Caustic Dosing",
+      "type": "HAS_ROOT_CAUSE",
+      "properties": {}
+    },
+    {
+      "id": 1152928101676613650,
+      "source": "SCB-103 Low Caustic Dosing",
+      "target": "Verify SCB-103 Caustic Feed Line & Increase Pump Flow",
+      "type": "HAS_RECOMMENDATION",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474772,
+      "source": "SCB-301",
+      "target": "SCB-301 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102548,
+      "source": "SCB-301",
+      "target": "SCB-301 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730325,
+      "source": "SCB-301 pH Sensor",
+      "target": "SCB-301 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358103,
+      "source": "SCB-301 Standard pH Neutralization",
+      "target": "SCB-301 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474777,
+      "source": "SCB-302",
+      "target": "SCB-302 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102553,
+      "source": "SCB-302",
+      "target": "SCB-302 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730330,
+      "source": "SCB-302 pH Sensor",
+      "target": "SCB-302 Low pH",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358108,
+      "source": "SCB-302 Low pH",
+      "target": "SCB-302 Alkali Deficit",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152927002164985885,
+      "source": "SCB-302 Alkali Deficit",
+      "target": "SCB-302 Low Caustic Dosing",
+      "type": "HAS_ROOT_CAUSE",
+      "properties": {}
+    },
+    {
+      "id": 1152928101676613662,
+      "source": "SCB-302 Low Caustic Dosing",
+      "target": "Verify SCB-302 Caustic Feed Line & Increase Pump Flow",
+      "type": "HAS_RECOMMENDATION",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474784,
+      "source": "SCB-303",
+      "target": "SCB-303 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102560,
+      "source": "SCB-303",
+      "target": "SCB-303 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730337,
+      "source": "SCB-303 pH Sensor",
+      "target": "SCB-303 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358115,
+      "source": "SCB-303 Standard pH Neutralization",
+      "target": "SCB-303 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474789,
+      "source": "SCB-304",
+      "target": "SCB-304 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102565,
+      "source": "SCB-304",
+      "target": "SCB-304 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730342,
+      "source": "SCB-304 pH Sensor",
+      "target": "SCB-304 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358120,
+      "source": "SCB-304 Standard pH Neutralization",
+      "target": "SCB-304 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474794,
+      "source": "SCB-501",
+      "target": "SCB-501 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102570,
+      "source": "SCB-501",
+      "target": "SCB-501 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152929201188241450,
+      "source": "SCB-501",
+      "target": "SCB-501 ML Anomaly Alert",
+      "type": "HAS_ANOMALY",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730347,
+      "source": "SCB-501 pH Sensor",
+      "target": "SCB-501 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358125,
+      "source": "SCB-501 Standard pH Neutralization",
+      "target": "SCB-501 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474799,
+      "source": "SCB-502",
+      "target": "SCB-502 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102575,
+      "source": "SCB-502",
+      "target": "SCB-502 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730352,
+      "source": "SCB-502 pH Sensor",
+      "target": "SCB-502 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358130,
+      "source": "SCB-502 Standard pH Neutralization",
+      "target": "SCB-502 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474804,
+      "source": "SCB-601",
+      "target": "SCB-601 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102580,
+      "source": "SCB-601",
+      "target": "SCB-601 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730357,
+      "source": "SCB-601 pH Sensor",
+      "target": "SCB-601 Low pH",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358135,
+      "source": "SCB-601 Low pH",
+      "target": "SCB-601 Alkali Deficit",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152927002164985912,
+      "source": "SCB-601 Alkali Deficit",
+      "target": "SCB-601 Low Caustic Dosing",
+      "type": "HAS_ROOT_CAUSE",
+      "properties": {}
+    },
+    {
+      "id": 1152928101676613689,
+      "source": "SCB-601 Low Caustic Dosing",
+      "target": "Verify SCB-601 Caustic Feed Line & Increase Pump Flow",
+      "type": "HAS_RECOMMENDATION",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474811,
+      "source": "SCB-604",
+      "target": "SCB-604 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102587,
+      "source": "SCB-604",
+      "target": "SCB-604 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152929201188241467,
+      "source": "SCB-604",
+      "target": "SCB-604 ML Anomaly Alert",
+      "type": "HAS_ANOMALY",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730364,
+      "source": "SCB-604 pH Sensor",
+      "target": "SCB-604 Low pH",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358142,
+      "source": "SCB-604 Low pH",
+      "target": "SCB-604 Alkali Deficit",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152927002164985919,
+      "source": "SCB-604 Alkali Deficit",
+      "target": "SCB-604 Low Caustic Dosing",
+      "type": "HAS_ROOT_CAUSE",
+      "properties": {}
+    },
+    {
+      "id": 1152928101676613696,
+      "source": "SCB-604 Low Caustic Dosing",
+      "target": "Verify SCB-604 Caustic Feed Line & Increase Pump Flow",
+      "type": "HAS_RECOMMENDATION",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474818,
+      "source": "SCB-605",
+      "target": "SCB-605 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102594,
+      "source": "SCB-605",
+      "target": "SCB-605 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730371,
+      "source": "SCB-605 pH Sensor",
+      "target": "SCB-605 Low pH",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358149,
+      "source": "SCB-605 Low pH",
+      "target": "SCB-605 Alkali Deficit",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152927002164985926,
+      "source": "SCB-605 Alkali Deficit",
+      "target": "SCB-605 Low Caustic Dosing",
+      "type": "HAS_ROOT_CAUSE",
+      "properties": {}
+    },
+    {
+      "id": 1152928101676613703,
+      "source": "SCB-605 Low Caustic Dosing",
+      "target": "Verify SCB-605 Caustic Feed Line & Increase Pump Flow",
+      "type": "HAS_RECOMMENDATION",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474825,
+      "source": "SCB-606",
+      "target": "SCB-606 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102601,
+      "source": "SCB-606",
+      "target": "SCB-606 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730378,
+      "source": "SCB-606 pH Sensor",
+      "target": "SCB-606 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358156,
+      "source": "SCB-606 Standard pH Neutralization",
+      "target": "SCB-606 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474830,
+      "source": "SCB-901",
+      "target": "SCB-901 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102606,
+      "source": "SCB-901",
+      "target": "SCB-901 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730383,
+      "source": "SCB-901 pH Sensor",
+      "target": "SCB-901 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358161,
+      "source": "SCB-901 Standard pH Neutralization",
+      "target": "SCB-901 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474835,
+      "source": "SCB-105",
+      "target": "SCB-105 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102611,
+      "source": "SCB-105",
+      "target": "SCB-105 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730388,
+      "source": "SCB-105 pH Sensor",
+      "target": "SCB-105 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358166,
+      "source": "SCB-105 Standard pH Neutralization",
+      "target": "SCB-105 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474840,
+      "source": "SCB-106",
+      "target": "SCB-106 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102616,
+      "source": "SCB-106",
+      "target": "SCB-106 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152929201188241496,
+      "source": "SCB-106",
+      "target": "SCB-106 ML Anomaly Alert",
+      "type": "HAS_ANOMALY",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730393,
+      "source": "SCB-106 pH Sensor",
+      "target": "SCB-106 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358171,
+      "source": "SCB-106 Standard pH Neutralization",
+      "target": "SCB-106 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474845,
+      "source": "SCB-107",
+      "target": "SCB-107 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102621,
+      "source": "SCB-107",
+      "target": "SCB-107 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730398,
+      "source": "SCB-107 pH Sensor",
+      "target": "SCB-107 Low pH",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358176,
+      "source": "SCB-107 Low pH",
+      "target": "SCB-107 Alkali Deficit",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152927002164985953,
+      "source": "SCB-107 Alkali Deficit",
+      "target": "SCB-107 Low Caustic Dosing",
+      "type": "HAS_ROOT_CAUSE",
+      "properties": {}
+    },
+    {
+      "id": 1152928101676613730,
+      "source": "SCB-107 Low Caustic Dosing",
+      "target": "Verify SCB-107 Caustic Feed Line & Increase Pump Flow",
+      "type": "HAS_RECOMMENDATION",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474852,
+      "source": "Ammonia Scrubber",
+      "target": "Ammonia Scrubber pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102628,
+      "source": "Ammonia Scrubber",
+      "target": "Ammonia Scrubber Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730405,
+      "source": "Ammonia Scrubber pH Sensor",
+      "target": "Ammonia Scrubber Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358183,
+      "source": "Ammonia Scrubber Standard pH Neutralization",
+      "target": "Ammonia Scrubber Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474857,
+      "source": "SCB-104",
+      "target": "SCB-104 pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102633,
+      "source": "SCB-104",
+      "target": "SCB-104 Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730410,
+      "source": "SCB-104 pH Sensor",
+      "target": "SCB-104 Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358188,
+      "source": "SCB-104 Standard pH Neutralization",
+      "target": "SCB-104 Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152922604118474862,
+      "source": "FES-101 Scrubber",
+      "target": "FES-101 Scrubber pH Sensor",
+      "type": "HAS_SENSOR",
+      "properties": {}
+    },
+    {
+      "id": 1152923703630102638,
+      "source": "FES-101 Scrubber",
+      "target": "FES-101 Scrubber Health Rating",
+      "type": "HAS_HEALTH",
+      "properties": {}
+    },
+    {
+      "id": 1152929201188241518,
+      "source": "FES-101 Scrubber",
+      "target": "FES-101 Scrubber ML Anomaly Alert",
+      "type": "HAS_ANOMALY",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730415,
+      "source": "FES-101 Scrubber pH Sensor",
+      "target": "FES-101 Scrubber Standard pH Neutralization",
+      "type": "GENERATES",
+      "properties": {}
+    },
+    {
+      "id": 1152925902653358193,
+      "source": "FES-101 Scrubber Standard pH Neutralization",
+      "target": "FES-101 Scrubber Optimal Neutralization",
+      "type": "CAUSES",
+      "properties": {}
+    },
+    {
+      "id": 1152924803141730419,
+      "source": "Stack VOC CEMS",
+      "target": "Standard Air Emissions",
+      "type": "GENERATES",
+      "properties": {}
+    }
+  ]
+}

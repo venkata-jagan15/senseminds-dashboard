@@ -1,0 +1,32 @@
+# LAURUS LABS UNIT 1 — WET SCRUBBER STANDARD OPERATING PROCEDURES (SOP)
+
+This document outlines the standard engineering guidelines, safety limits, and emergency troubleshooting protocols for the wet scrubber columns at Laurus Labs Unit 1 (Visakhapatnam, India).
+
+---
+
+## 1. CHEMICAL DOSING AND PH SAFETY BOUNDS
+*   **Standard Caustic Dosing**: Dosing pumps are configured to feed caustic soda (NaOH) at a normal baseline flow rate of 2.8 L/min to maintain the scrubbing liquid in the safe alkaline band between 10.0 and 12.0 pH.
+*   **Warning Thresholds**: If the pH of any alkaline scrubber (e.g., SCB-102, SCB-301, SCB-901) drops below 9.5, it indicates an alkali deficit. The primary NaOH dosing pump flow rate must be boosted immediately to 6.2 L/min (+25%) to compensate for the acid load.
+*   **Critical Thresholds**: If the pH drops below 9.0, it indicates a critical buffering failure. The operator must engage the backup chemical dosing pump (P-302B or equivalent) immediately and verify that the caustic supply line is not blocked.
+
+---
+
+## 2. CHLORINATION PLANT SCRUBBER (SCB-301) PROTOCOLS
+*   **Primary Application**: SCB-301 handles high-concentration chlorine (Cl2) and hydrochloric acid (HCl) off-gases generated during synthesis batches.
+*   **Neutralization Buffering**: Due to the high acidity of the chlorine stream, SCB-301 requires a continuous circulation rate of 45 m³/h. 
+*   **Emergency Overrides**: During batch purging, if stack VOC emissions exceed 35 µg/m³, the scrubber exhaust fan must be boosted from 1400 RPM to 1800 RPM to increase draft velocity.
+*   **Pressure Drop Warnings**: The normal operating pressure drop across the packing material is 0.8 to 1.2 kPa. If the pressure drop exceeds 1.5 kPa, it indicates nozzle blockage or salt encrustation. The column must be scheduled for packing wash.
+
+---
+
+## 3. AMMONIA SCRUBBER OPERATION GUIDELINES
+*   **Acid Scrubbing Process**: Unlike standard columns, the Ammonia Scrubber utilizes dilute sulphuric acid (H2SO4) rather than caustic soda to neutralize basic ammonia off-gases.
+*   **Safety pH Band**: The target safety band is 3.0 to 5.0 pH.
+*   **Buffer carryover warnings**: If the pH of the Ammonia Scrubber rises above 6.0, it indicates an acid deficit. The acid dosing pump must be boosted to prevent gaseous ammonia bypass venting to the stack.
+
+---
+
+## 4. CEMS SENSOR COMPLIANCE AND CALIBRATION
+*   **Calibration Schedule**: To comply with pollution control board regulations, all pH sensors (e.g., Endress+Hauser CPS11D, Mettler Toledo InPro 3253) must undergo a 2-point buffer calibration (pH 7.00 and pH 10.00) every 14 days.
+*   **Electrode Cleaning**: If a pH sensor response time exceeds 45 seconds or exhibits flatlining (drift < 0.01 pH over 4 hours), the glass electrode tip must be cleaned with a 0.1M HCl solution and re-calibrated.
+*   **Nozzle Inspections**: Spray nozzles must be checked monthly. Check for scale buildup or physical damage to ensure full liquid distributor coverage across the packing beds.

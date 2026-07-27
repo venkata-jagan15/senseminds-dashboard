@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* Default Theme Tokens (Light mode palette based on user specs) */
+  --bg-main: #F5F7FA;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F8FAFC;
+  --bg-sidebar: #FFFFFF;
+  --bg-input: #FFFFFF;
+  --border-color: #E2E8F0;
+  --border-subtle: #ECEFF1;
+  --primary: #1565C0;
+  --primary-light: #1E88E5;
+  --primary-gradient: linear-gradient(135deg, #1565C0 0%, #1E88E5 100%);
+  --secondary: #2E7D32;
+  --text-main: #263238;
+  --text-muted: #455A64;
+  --text-dim: #78909C;
+  --card-shadow: 0 4px 20px rgba(38, 50, 56, 0.08);
+  --card-shadow-hover: 0 8px 25px rgba(21, 101, 192, 0.15);
+  
+  --accent-blue: #1565C0;
+  --accent-green: #2E7D32;
+  --accent-teal: #00897B;
+  --accent-warning: #D97706;
+  --accent-danger: #DC2626;
+  --accent-success: #2E7D32;
+  
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[data-theme='dark'] {
+  --bg-main: #030a16;
+  --bg-card: rgba(10, 25, 47, 0.85);
+  --bg-card-hover: rgba(15, 34, 64, 0.9);
+  --bg-sidebar: rgba(6, 16, 33, 0.95);
+  --bg-input: rgba(3, 10, 22, 0.7);
+  --border-color: rgba(20, 184, 166, 0.25);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --primary: #06b6d4;
+  --primary-light: #38bdf8;
+  --primary-gradient: linear-gradient(135deg, #06b6d4 0%, #14b8a6 100%);
+  --secondary: #14b8a6;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --card-shadow-hover: 0 12px 30px rgba(6, 182, 212, 0.2);
+  
+  --accent-blue: #3b82f6;
+  --accent-green: #10b981;
+  --accent-teal: #14b8a6;
+  --accent-warning: #f59e0b;
+  --accent-danger: #ef4444;
+  --accent-success: #10b981;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ==========================================================================
+   ANIMATIONS & MICRO-INTERACTIONS
+   ========================================================================== */
+
+/* Page Transitions (300ms Fade + Soft Slide) */
+.page-transition {
+  animation: pageFadeSlide 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: opacity, transform;
+}
+
+@keyframes pageFadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Staggered Card Entrance */
+.stagger-card {
+  opacity: 0;
+  animation: cardFadeIn 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: calc(var(--stagger, 0) * 45ms);
+  will-change: opacity, transform;
+}
+
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Table Row Sequential Entrance */
+.animate-row {
+  opacity: 0;
+  animation: rowFadeIn 250ms ease-out forwards;
+  animation-delay: calc(var(--row-index, 0) * 35ms);
+}
+
+@keyframes rowFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Status Badges Subtle Animations */
+/* Healthy (Green): Gentle breathing every 5s */
+.status-badge-healthy {
+  animation: gentleBreathing 5s ease-in-out infinite;
+}
+
+@keyframes gentleBreathing {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 0.92;
+  }
+}
+
+/* Warning (Amber): Slow pulse every 3s */
+.status-badge-warning {
+  animation: slowPulse 3s ease-in-out infinite;
+}
+
+@keyframes slowPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0);
+  }
+  50% {
+    box-shadow: 0 0 8px 2px rgba(217, 119, 6, 0.25);
+  }
+}
+
+/* Critical (Red): Soft pulse with subtle glow every 1.5s */
+.status-badge-critical {
+  animation: criticalSoftGlow 1.5s ease-in-out infinite;
+}
+
+@keyframes criticalSoftGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 10px 3px rgba(220, 38, 38, 0.35);
+    transform: scale(1.03);
+  }
+}
+
+/* pH Value Refresh Highlight Flash (1s soft highlight) */
+.ph-flash-highlight {
+  animation: flashHighlight 1s ease-out;
+}
+
+@keyframes flashHighlight {
+  0% {
+    background-color: rgba(21, 101, 192, 0.25);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+/* Interactive Buttons & Scale Effects */
+.btn-interactive {
+  transition: all 180ms ease-out;
+  user-select: none;
+}
+
+.btn-interactive:hover {
+  transform: scale(1.03);
+}
+
+.btn-interactive:active {
+  transform: scale(0.98);
+}
+
+/* Sidebar Icon Hover Scale (1.05x) */
+.icon-hover-scale {
+  transition: transform 150ms ease;
+}
+
+.icon-hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Toast Notification Slide In (Top Right) */
+.toast-slide-in {
+  animation: toastSlideDown 350ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes toastSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-16px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Loading Ring Spinner */
+.loading-ring {
+  width: 44px;
+  height: 44px;
+  border: 3px solid rgba(21, 101, 192, 0.15);
+  border-top-color: var(--primary);
+  border-right-color: var(--secondary);
+  border-radius: 50%;
+  animation: spinRing 0.8s linear infinite;
+}
+
+@keyframes spinRing {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spin-fast {
+  animation: spinRing 0.7s linear infinite;
+}
+
+/* Custom Theme Toggle Styling */
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: var(--card-shadow);
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.theme-toggle-btn:hover {
+  border-color: var(--primary);
+  transform: translateY(-1px);
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+/* Tooltip styles for chart */
+.custom-recharts-tooltip {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  animation: tooltipFade 150ms ease-out;
+}
+
+@keyframes tooltipFade {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+
+/* Mobile Backdrop Overlay for Drawer Sidebar */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 90;
+  animation: fadeIn 200ms ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Tablet & Mobile Screens (<= 768px) */
+@media (max-width: 768px) {
+  main {
+    padding: 0 16px 24px 16px !important;
+  }
+
+  .sidebar-container {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh !important;
+    z-index: 100 !important;
+    transform: translateX(-100%);
+    transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .sidebar-container.open {
+    transform: translateX(0) !important;
+  }
+
+  .mobile-header-btn {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-header-btn {
+    display: none !important;
+  }
+}
+
+/* Small Screens (<= 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px !important;
+  }
+
+  .summary-stats-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+/* Print Media Styles: Only Print / Export the Table Area */
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  .printable-table-area,
+  .printable-table-area * {
+    visibility: visible !important;
+  }
+  .printable-table-area {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    background: #ffffff !important;
+    color: #1a1a1a !important;
+    box-shadow: none !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 8px !important;
+  }
+  .printable-table-area table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+  .printable-table-area th,
+  .printable-table-area td {
+    color: #1a1a1a !important;
+    border-bottom: 1px solid #cbd5e1 !important;
+    padding: 10px 14px !important;
+  }
+  .printable-table-area th {
+    background: #f1f5f9 !important;
+    font-weight: 700 !important;
+  }
+}
+
+/* ==========================================================================
+   LANDING PAGE STYLES & HERO ANIMATIONS
+   ========================================================================== */
+
+.ken-burns-bg {
+  animation: kenBurnsAnimation 26s infinite alternate ease-in-out;
+}
+
+@keyframes kenBurnsAnimation {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.08) translate(-1%, -1%);
+  }
+}
+
+.fade-in-title {
+  opacity: 0;
+  animation: landingFadeInSlide 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.fade-in-subtitle {
+  opacity: 0;
+  animation: landingFadeInSlide 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+}
+
+.fade-in-desc {
+  opacity: 0;
+  animation: landingFadeInSlide 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+}
+
+.slide-up-buttons {
+  opacity: 0;
+  animation: landingFadeInSlide 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.45s forwards;
+}
+
+.fade-in-status {
+  opacity: 0;
+  animation: landingFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.6s forwards;
+}
+
+.stagger-card-0 {
+  opacity: 0;
+  animation: landingFadeInSlide 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+}
+.stagger-card-1 {
+  opacity: 0;
+  animation: landingFadeInSlide 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.6s forwards;
+}
+.stagger-card-2 {
+  opacity: 0;
+  animation: landingFadeInSlide 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards;
+}
+.stagger-card-3 {
+  opacity: 0;
+  animation: landingFadeInSlide 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.8s forwards;
+}
+
+@keyframes landingFadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes landingFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Landing Page Buttons Hover */
+.landing-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(2, 132, 199, 0.5) !important;
+  background: linear-gradient(135deg, #0284C7 0%, #115e59 100%) !important;
+}
+
+.landing-btn-primary:active {
+  transform: translateY(0);
+}
+
+.landing-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.14) !important;
+  border-color: rgba(255, 255, 255, 0.35) !important;
+  transform: translateY(-2px);
+}
+
+.landing-btn-secondary:active {
+  transform: translateY(0);
+}
+
+/* Landing page exit transition overlay */
+.landing-exit-active {
+  animation: landingExit 450ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes landingExit {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.05);
+    pointer-events: none;
+  }
+}
+
+/* ==========================================================================
+   ADMIN LOGIN ANIMATIONS & STYLES
+   ========================================================================== */
+
+/* Animated background gradient */
+.login-bg-animated {
+  background: linear-gradient(135deg, #0F172A 0%, #102A43 50%, #0F766E 100%);
+  background-size: 200% 200%;
+  animation: loginBgGradient 16s ease infinite alternate;
+}
+
+@keyframes loginBgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Login elements entrance slide and fade-in */
+.login-container-entrance {
+  animation: loginEntrance 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes loginEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Input elements shake on validation error */
+.shake-element {
+  animation: shakeAnimation 0.5s ease-in-out;
+}
+
+@keyframes shakeAnimation {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-6px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(6px);
+  }
+}
+
+/* Entrance fade-in for details */
+.login-card {
+  animation: cardScaleIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+  opacity: 0;
+}
+
+@keyframes cardScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+
