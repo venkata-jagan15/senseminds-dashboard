@@ -32,7 +32,7 @@ export default function CommandCenterView() {
   useEffect(() => {
     const fetchLiveData = async () => {
       try {
-        const resKpis = await fetch('http://localhost:8000/api/graph/safety/kpis');
+        const resKpis = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/api/graph/safety/kpis`);
         if (!resKpis.ok) throw new Error('API server unreachable');
         const kpis = await resKpis.json();
         
@@ -41,11 +41,11 @@ export default function CommandCenterView() {
         setScrubberEfficiency(kpis.scrubber_efficiency);
         setFailures(kpis.failures);
         
-        const resForecasts = await fetch('http://localhost:8000/api/graph/safety/forecasts');
+        const resForecasts = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/api/graph/safety/forecasts`);
         const forecastsData = await resForecasts.json();
         setForecasts(forecastsData);
 
-        const resCommands = await fetch('http://localhost:8000/api/graph/safety/plc_commands');
+        const resCommands = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/api/graph/safety/plc_commands`);
         const cmds = await resCommands.json();
         if (cmds && cmds.length > 0) {
           setPlcOverrides(prev => prev.map(item => {

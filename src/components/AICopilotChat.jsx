@@ -29,7 +29,7 @@ export default function AICopilotChat() {
     setIsThinking(true);
 
     try {
-      const response = await fetch('http://localhost:8000/api/graph/copilot/chat', {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/api/graph/copilot/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: updatedMessages })

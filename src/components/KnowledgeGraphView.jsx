@@ -39,7 +39,7 @@ export default function KnowledgeGraphView() {
     if (selectedNode && selectedNode.type === 'Equipment') {
       setIsLoadingDiagnosis(true);
       setNodeDiagnosis(null);
-      fetch(`http://localhost:8000/api/graph/equipment/${selectedNode.label}/diagnosis`)
+      fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/api/graph/equipment/${selectedNode.label}/diagnosis`)
         .then(res => {
           if (!res.ok) throw new Error('Failed to fetch diagnosis');
           return res.json();
@@ -61,7 +61,7 @@ export default function KnowledgeGraphView() {
   useEffect(() => {
     const fetchGraphData = async () => {
       try {
-        const res = await fetch('http://localhost:8000/api/graph');
+        const res = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/api/graph`);
         if (!res.ok) throw new Error('API server offline');
         const data = await res.json();
         setActiveGraph(data);

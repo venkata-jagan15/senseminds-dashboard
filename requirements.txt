@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+neo4j
+pandas
+numpy
+networkx
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+google-generativeai
+requests
+pydantic

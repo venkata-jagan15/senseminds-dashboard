@@ -36,7 +36,7 @@ export default function ScrubberDetailView({ scrubber, alerts, onBack, onResolve
     if (scrubber) {
       setIsLoadingXAI(true);
       setXaiExplanation('');
-      fetch(`http://localhost:8000/api/graph/equipment/${scrubber.name}/diagnosis`)
+      fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/api/graph/equipment/${scrubber.name}/diagnosis`)
         .then(res => {
           if (!res.ok) throw new Error('Failed to fetch diagnosis');
           return res.json();
