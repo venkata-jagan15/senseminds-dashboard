@@ -75,16 +75,7 @@ export default function AICopilotChat() {
   ];
 
   return (
-    <div style={{
-      margin: '0 auto',
-      display: 'flex',
-      height: 'calc(100vh - 160px)',
-      maxWidth: '920px',
-      width: '100%',
-      flexDirection: 'column',
-      fontFamily: 'var(--font-body)',
-      padding: '10px 0'
-    }}>
+    <div className="copilot-container">
       
       {/* 1. Header Area */}
       <div style={{
@@ -109,8 +100,7 @@ export default function AICopilotChat() {
         </div>
         
         <div>
-          <h2 style={{
-            fontSize: '18px',
+          <h2 className="copilot-header-title" style={{
             fontWeight: 700,
             color: 'var(--text-main)',
             margin: 0,
@@ -118,8 +108,7 @@ export default function AICopilotChat() {
           }}>
             SenseMinds Copilot
           </h2>
-          <p style={{
-            fontSize: '11px',
+          <p className="copilot-header-subtitle" style={{
             fontWeight: 700,
             textTransform: 'uppercase',
             letterSpacing: '1px',
@@ -136,13 +125,12 @@ export default function AICopilotChat() {
       </div>
 
       {/* 2. Chat Thread Area */}
-      <div style={{
+      <div className="copilot-chat-thread" style={{
         flex: 1,
         overflowY: 'auto',
         borderRadius: '16px',
         border: '1px solid var(--border-color)',
         background: 'var(--bg-card)',
-        padding: '24px',
         display: 'flex',
         flexDirection: 'column',
         gap: '20px',
@@ -167,7 +155,7 @@ export default function AICopilotChat() {
                   display: 'grid',
                   height: '32px',
                   width: '32px',
-                  shrink: 0,
+                  flexShrink: 0,
                   placeItems: 'center',
                   borderRadius: '8px',
                   border: '1px solid var(--border-color)',
@@ -180,21 +168,23 @@ export default function AICopilotChat() {
               )}
 
               {/* Message Box */}
-              <div style={{
-                maxWidth: '70%',
-                padding: '14px 18px',
-                borderRadius: isUser ? '16px 16px 2px 16px' : '16px 16px 16px 2px',
-                background: isUser
-                  ? 'var(--primary-gradient)'
-                  : 'var(--bg-main)',
-                border: isUser ? 'none' : '1px solid var(--border-color)',
-                boxShadow: isUser ? '0 4px 12px rgba(21,101,192,0.2)' : 'none',
-                color: isUser ? '#ffffff' : 'var(--text-main)',
-                fontSize: '13.5px',
-                lineHeight: '1.6',
-                whiteSpace: 'pre-wrap',
-                fontFamily: m.text.includes('•') ? 'var(--font-mono)' : 'var(--font-body)'
-              }}>
+              <div
+                className="copilot-message-bubble"
+                style={{
+                  padding: '14px 18px',
+                  borderRadius: isUser ? '16px 16px 2px 16px' : '16px 16px 16px 2px',
+                  background: isUser
+                    ? 'var(--primary-gradient)'
+                    : 'var(--bg-main)',
+                  border: isUser ? 'none' : '1px solid var(--border-color)',
+                  boxShadow: isUser ? '0 4px 12px rgba(21,101,192,0.2)' : 'none',
+                  color: isUser ? '#ffffff' : 'var(--text-main)',
+                  fontSize: '13.5px',
+                  lineHeight: '1.6',
+                  whiteSpace: 'pre-wrap',
+                  fontFamily: m.text.includes('•') ? 'var(--font-mono)' : 'var(--font-body)'
+                }}
+              >
                 {m.text}
               </div>
             </div>
@@ -212,6 +202,7 @@ export default function AICopilotChat() {
               display: 'grid',
               height: '32px',
               width: '32px',
+              flexShrink: 0,
               placeItems: 'center',
               borderRadius: '8px',
               border: '1px solid var(--border-color)',
@@ -244,13 +235,12 @@ export default function AICopilotChat() {
           <button
             key={idx}
             onClick={() => handleSend(pill)}
+            className="copilot-suggestion-pill"
             style={{
-              padding: '6px 14px',
               borderRadius: '20px',
               border: '1px solid var(--border-color)',
               background: 'var(--bg-card)',
               color: 'var(--text-muted)',
-              fontSize: '12px',
               fontWeight: 500,
               cursor: 'pointer',
               boxShadow: '0 2px 5px rgba(0,0,0,0.03)',
@@ -271,15 +261,13 @@ export default function AICopilotChat() {
       </div>
 
       {/* 4. Chat Input Form */}
-      <div style={{
+      <div className="copilot-input-form" style={{
         marginTop: '16px',
         display: 'flex',
         alignItems: 'center',
-        gap: '12px',
         borderRadius: '12px',
         border: '1px solid var(--border-color)',
         background: 'var(--bg-card)',
-        padding: '12px 18px',
         boxShadow: 'var(--card-shadow)'
       }}>
         <textarea
@@ -293,6 +281,7 @@ export default function AICopilotChat() {
             }
           }}
           placeholder="Ask about any wet scrubber, CEMS sensor, rule evaluation or diagnostic..."
+          className="copilot-textarea"
           style={{
             flex: 1,
             maxHeight: '120px',
@@ -301,7 +290,6 @@ export default function AICopilotChat() {
             outline: 'none',
             background: 'transparent',
             color: 'var(--text-main)',
-            fontSize: '13.5px',
             padding: '4px 0',
             fontFamily: 'var(--font-body)'
           }}

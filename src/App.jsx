@@ -134,7 +134,7 @@ export default function App() {
   }
 
   return (
-    <div style={{ display: 'flex', minHeight: '100vh', background: 'var(--bg-main)', color: 'var(--text-main)' }}>
+    <div className="app-container" style={{ minHeight: '100vh', background: 'var(--bg-main)', color: 'var(--text-main)' }}>
       
       {/* 1. Sidebar Navigation (Supports Mobile Drawer) */}
       <Sidebar

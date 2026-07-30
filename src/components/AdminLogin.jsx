@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, Lock, User, Eye, EyeOff, ShieldCheck, Activity, AlertCircle, RefreshCw, Key, HelpCircle } from 'lucide-react';
 import campusImg from '../assets/laurus_campus.png';
+import logoImg from '../assets/logo.png';
 
 export default function AdminLogin({ onLoginSuccess }) {
   const [username, setUsername] = useState('');
@@ -65,22 +66,7 @@ export default function AdminLogin({ onLoginSuccess }) {
   const isFormIncomplete = !username.trim() || !password;
 
   return (
-    <div style={{
-      width: '100vw',
-      height: '100vh',
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      zIndex: 99999,
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      boxSizing: 'border-box',
-      padding: '40px',
-      overflow: 'hidden',
-      color: '#F8FAFC',
-      fontFamily: 'var(--font-body)'
-    }} className="login-bg-animated">
+    <div className="login-bg-animated">
       
       {/* Blurred campus image background with 15% opacity */}
       <div style={{
@@ -99,40 +85,32 @@ export default function AdminLogin({ onLoginSuccess }) {
 
       {/* Main Login split container */}
       <div 
-        className="login-container-entrance"
+        className="login-container-entrance responsive-grid-login"
         style={{
           maxWidth: '1050px',
           width: '100%',
-          display: 'grid',
-          gridTemplateColumns: '1.1fr 1fr',
-          gap: '40px',
-          zIndex: 10,
-          alignItems: 'center'
+          zIndex: 10
         }}
       >
         
         {/* LEFT SIDE: Information & Branding */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+        <div className="login-left-branding" style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
           
           {/* Logo */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <div style={{
-              width: '38px',
-              height: '38px',
-              borderRadius: '8px',
-              background: 'linear-gradient(135deg, #0F766E 0%, #2563EB 100%)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontWeight: 800,
-              fontSize: '18px',
-              color: '#ffffff',
-              boxShadow: '0 4px 15px rgba(37, 99, 235, 0.4)',
-              border: '1px solid rgba(255, 255, 255, 0.15)',
-              fontFamily: 'var(--font-heading)'
-            }}>
-              L
-            </div>
+            <img
+              src={logoImg}
+              alt="Logo"
+              style={{
+                width: '38px',
+                height: '38px',
+                borderRadius: '8px',
+                objectFit: 'contain',
+                boxShadow: '0 4px 15px rgba(37, 99, 235, 0.4)',
+                border: '1px solid rgba(255, 255, 255, 0.15)',
+                background: '#ffffff'
+              }}
+            />
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span style={{
                 fontSize: '20px',
@@ -271,6 +249,32 @@ export default function AdminLogin({ onLoginSuccess }) {
         >
           {/* Card Header */}
           <div style={{ textAlign: 'center' }}>
+            {/* Mobile-only logo */}
+            <div className="login-mobile-logo" style={{ display: 'none', justifyContent: 'center', alignItems: 'center', marginBottom: '14px' }}>
+              <img
+                src={logoImg}
+                alt="Logo"
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  borderRadius: '6px',
+                  objectFit: 'contain',
+                  background: '#ffffff',
+                  boxShadow: '0 4px 15px rgba(2, 132, 199, 0.4)',
+                  border: '1px solid rgba(255, 255, 255, 0.1)',
+                  marginRight: '8px'
+                }}
+              />
+              <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'left' }}>
+                <span style={{ fontSize: '15px', fontWeight: 800, fontFamily: 'var(--font-heading)', letterSpacing: '0.5px', color: '#ffffff' }}>
+                  LAURUS <span style={{ color: '#0284C7' }}>Labs</span>
+                </span>
+                <span style={{ fontSize: '8px', color: '#0d9488', fontWeight: 700, letterSpacing: '0.5px', textTransform: 'uppercase', marginTop: '-2px' }}>
+                  Compliance & Quality
+                </span>
+              </div>
+            </div>
+
             <h3 style={{
               fontFamily: 'var(--font-heading)',
               fontSize: '22px',

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Activity, Clock, ShieldCheck, Layers, ArrowRight, ArrowLeft } from 'lucide-react';
 import campusImg from '../assets/laurus_campus.png';
+import logoImg from '../assets/logo.png';
 
 export default function LandingPage({ onEnterDashboard }) {
   const [showLearnMore, setShowLearnMore] = useState(false);
@@ -8,25 +9,7 @@ export default function LandingPage({ onEnterDashboard }) {
   // Render Learn More as a full page layout, not as a modal card
   if (showLearnMore) {
     return (
-      <div style={{
-        minHeight: '100vh',
-        width: '100vw',
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        zIndex: 999999,
-        backgroundColor: '#08131F',
-        backgroundImage: `radial-gradient(circle at 50% 0%, rgba(6, 182, 212, 0.12) 0%, transparent 50%), linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px)`,
-        backgroundSize: '100% 100%, 40px 40px',
-        color: '#ffffff',
-        padding: '40px 60px',
-        boxSizing: 'border-box',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '30px',
-        overflowY: 'auto',
-        animation: 'landingFadeIn 0.4s ease-out'
-      }}>
+      <div className="landing-learn-more-container">
         {/* Full campus image background blurred */}
         <div style={{
           position: 'absolute',
@@ -52,23 +35,19 @@ export default function LandingPage({ onEnterDashboard }) {
         }}>
           {/* Logo and Brand */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <div style={{
-              width: '36px',
-              height: '36px',
-              borderRadius: '8px',
-              background: 'linear-gradient(135deg, #0F766E 0%, #0284C7 100%)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontWeight: 800,
-              fontSize: '18px',
-              color: '#ffffff',
-              boxShadow: '0 4px 15px rgba(2, 132, 199, 0.4)',
-              border: '1px solid rgba(255, 255, 255, 0.1)',
-              fontFamily: 'var(--font-heading)'
-            }}>
-              L
-            </div>
+            <img
+              src={logoImg}
+              alt="Logo"
+              style={{
+                width: '36px',
+                height: '36px',
+                borderRadius: '8px',
+                objectFit: 'contain',
+                boxShadow: '0 4px 15px rgba(2, 132, 199, 0.4)',
+                border: '1px solid rgba(255, 255, 255, 0.1)',
+                background: '#ffffff'
+              }}
+            />
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span style={{
                 fontSize: '18px',
@@ -139,12 +118,7 @@ export default function LandingPage({ onEnterDashboard }) {
         </div>
 
         {/* Content Columns */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: '2fr 1fr',
-          gap: '40px',
-          alignItems: 'start'
-        }}>
+        <div className="responsive-grid-2col">
           {/* Left Column: Extensive Documentation */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
             
@@ -418,23 +392,19 @@ export default function LandingPage({ onEnterDashboard }) {
         animation: 'fadeInTitle 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards'
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-          <div style={{
-            width: '36px',
-            height: '36px',
-            borderRadius: '8px',
-            background: 'linear-gradient(135deg, #0F766E 0%, #0284C7 100%)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontWeight: 800,
-            fontSize: '18px',
-            color: '#ffffff',
-            boxShadow: '0 4px 15px rgba(2, 132, 199, 0.4)',
-            border: '1px solid rgba(255, 255, 255, 0.1)',
-            fontFamily: 'var(--font-heading)'
-          }}>
-            L
-          </div>
+          <img
+            src={logoImg}
+            alt="Logo"
+            style={{
+              width: '36px',
+              height: '36px',
+              borderRadius: '8px',
+              objectFit: 'contain',
+              boxShadow: '0 4px 15px rgba(2, 132, 199, 0.4)',
+              border: '1px solid rgba(255, 255, 255, 0.1)',
+              background: '#ffffff'
+            }}
+          />
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{
               fontSize: '18px',
@@ -627,11 +597,7 @@ export default function LandingPage({ onEnterDashboard }) {
         </div>
 
         {/* Bottom Right: Information Cards */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(2, 190px)',
-          gap: '12px'
-        }}>
+        <div className="responsive-card-grid">
           {/* Card 1: 20 Scrubbers */}
           <div 
             className="stagger-card-0"

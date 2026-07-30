@@ -435,12 +435,7 @@ export default function CommandCenterView() {
       </div>
 
       {/* Bottom Section: PLC Automated Overrides Console & Control Room Logs */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 340px',
-        gap: '20px',
-        alignItems: 'stretch'
-      }}>
+      <div className="responsive-grid-command">
         
         {/* PLC Commands Override Console */}
         <div style={{

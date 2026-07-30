@@ -378,14 +378,14 @@ export default function KnowledgeGraphView() {
       </div>
 
       {/* Main Graph View Area */}
-      <div style={{
-        flex: 1,
-        display: 'grid',
-        gridTemplateColumns: selectedNode ? '1fr 300px' : '1fr',
-        gap: '20px',
-        height: '100%',
-        minHeight: 0
-      }}>
+      <div 
+        className={`responsive-grid-graph ${!selectedNode ? 'no-panel' : ''}`}
+        style={{
+          flex: 1,
+          height: '100%',
+          minHeight: 0
+        }}
+      >
         
         {/* React Flow Board */}
         <div style={{

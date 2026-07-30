@@ -10,6 +10,7 @@ import {
   ShieldAlert,
   X
 } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 export default function Sidebar({ activeTab, setActiveTab, activeAlertsCount, scrubbersCount, isOpen, onClose }) {
   const navItems = [
@@ -62,19 +63,18 @@ export default function Sidebar({ activeTab, setActiveTab, activeAlertsCount, sc
           marginBottom: '24px'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{
-              width: '40px',
-              height: '40px',
-              borderRadius: '10px',
-              background: 'var(--primary-gradient)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              boxShadow: '0 4px 15px rgba(21, 101, 192, 0.3)',
-              color: '#ffffff'
-            }}>
-              <Activity size={24} />
-            </div>
+            <img
+              src={logoImg}
+              alt="SenseMinds Logo"
+              style={{
+                width: '40px',
+                height: '40px',
+                borderRadius: '10px',
+                objectFit: 'contain',
+                boxShadow: '0 4px 15px rgba(21, 101, 192, 0.3)',
+                background: '#ffffff' // Adding white background just in case logo has transparent background and expects white
+              }}
+            />
             <div>
               <div style={{
                 fontSize: '17px',

@@ -172,7 +172,7 @@ export default function ScrubberCard({ scrubber, index = 0, onClick }) {
         borderRadius: '12px',
         background: 'var(--bg-main)',
         border: '1px solid var(--border-subtle)',
-        margin: '6px 0 14px 0'
+        margin: 'auto 0 14px 0'
       }}>
         <div>
           <span style={{ fontSize: '11px', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ShieldAlert, Activity, Cpu, RefreshCw, Zap, Bell, Sliders } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 export default function Header({ onSimulate, activeAlerts, onRefresh }) {
   const [timeStr, setTimeStr] = useState('');
@@ -20,19 +21,19 @@ export default function Header({ onSimulate, activeAlerts, onRefresh }) {
         
         {/* Left Brand & Title */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
-          <div style={{
-            width: '46px',
-            height: '46px',
-            borderRadius: '10px',
-            background: 'linear-gradient(135deg, #0d9488 0%, #0284c7 100%)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: '0 0 16px rgba(20, 184, 166, 0.5)',
-            border: '1px solid rgba(45, 212, 191, 0.4)'
-          }}>
-            <Cpu size={26} color="#ffffff" />
-          </div>
+          <img
+            src={logoImg}
+            alt="Logo"
+            style={{
+              width: '46px',
+              height: '46px',
+              borderRadius: '10px',
+              objectFit: 'contain',
+              boxShadow: '0 0 16px rgba(20, 184, 166, 0.5)',
+              border: '1px solid rgba(45, 212, 191, 0.4)',
+              background: '#ffffff'
+            }}
+          />
 
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>

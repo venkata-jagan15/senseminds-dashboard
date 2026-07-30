@@ -326,8 +326,16 @@ body {
   to { opacity: 1; }
 }
 
+.app-container {
+  display: flex;
+}
+
 /* Tablet & Mobile Screens (<= 768px) */
 @media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
   main {
     padding: 0 16px 24px 16px !important;
   }
@@ -338,6 +346,8 @@ body {
     left: 0;
     bottom: 0;
     height: 100vh !important;
+    width: 260px !important;
+    min-width: 0 !important;
     z-index: 100 !important;
     transform: translateX(-100%);
     transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1) !important;
@@ -595,6 +605,213 @@ body {
   to {
     opacity: 1;
     transform: scale(1) translateY(0);
+  }
+}
+
+/* ==========================================================================
+   RESPONSIVE UTILITY CLASSES
+   ========================================================================== */
+
+.responsive-grid-2col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.responsive-grid-login {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.responsive-grid-command {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.responsive-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 190px);
+  gap: 12px;
+}
+
+.responsive-grid-graph {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+}
+
+.responsive-grid-graph.no-panel {
+  grid-template-columns: 1fr;
+}
+
+.landing-learn-more-container {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  background-color: #08131F;
+  background-image: radial-gradient(circle at 50% 0%, rgba(6, 182, 212, 0.12) 0%, transparent 50%), linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 40px 40px;
+  color: #ffffff;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow-y: auto;
+  animation: landingFadeIn 0.4s ease-out;
+}
+
+/* Tablet & Mobile Screens (<= 992px) */
+@media (max-width: 992px) {
+  .landing-learn-more-container {
+    padding: 20px 24px;
+    gap: 20px;
+  }
+  .responsive-grid-2col,
+  .responsive-grid-login,
+  .responsive-grid-command,
+  .responsive-grid-graph {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .responsive-card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+}
+
+
+/* Extra Small Screens (<= 576px) */
+@media (max-width: 576px) {
+  .responsive-grid-2col,
+  .responsive-grid-login,
+  .responsive-grid-command,
+  .responsive-grid-graph {
+    gap: 16px;
+  }
+  h1.fade-in-title {
+    font-size: 2.8rem !important;
+  }
+  .fade-in-subtitle {
+    font-size: 1.1rem !important;
+  }
+}
+
+.login-bg-animated {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 40px;
+  overflow-y: auto;
+  color: #F8FAFC;
+  font-family: var(--font-body);
+}
+
+@media (max-width: 992px) {
+  .login-bg-animated {
+    display: flex !important; /* Keep display flex but adjust alignments */
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 16px !important;
+  }
+  .login-left-branding {
+    display: none !important;
+  }
+  .login-mobile-logo {
+    display: flex !important;
+  }
+  .login-card {
+    padding: 24px 20px !important;
+    gap: 16px !important;
+    width: 100% !important;
+    max-width: 420px !important;
+  }
+}
+
+.copilot-container {
+  margin: 0 auto;
+  display: flex;
+  height: calc(100vh - 170px);
+  max-width: 920px;
+  width: 100%;
+  flex-direction: column;
+  font-family: var(--font-body);
+  padding: 10px 0;
+}
+
+.copilot-header-title {
+  font-size: 18px !important;
+}
+
+.copilot-header-subtitle {
+  font-size: 11px !important;
+}
+
+.copilot-chat-thread {
+  padding: 24px;
+}
+
+.copilot-message-bubble {
+  max-width: 70%;
+}
+
+.copilot-suggestion-pill {
+  padding: 6px 14px;
+  font-size: 12px;
+}
+
+.copilot-input-form {
+  padding: 12px 18px;
+  gap: 12px;
+}
+
+.copilot-textarea {
+  font-size: 13.5px !important;
+}
+
+@media (max-width: 768px) {
+  .copilot-container {
+    height: calc(100vh - 200px);
+  }
+  .copilot-header-title {
+    font-size: 16px !important;
+  }
+  .copilot-header-subtitle {
+    font-size: 10px !important;
+  }
+  .copilot-chat-thread {
+    padding: 14px 10px;
+    gap: 14px !important;
+  }
+  .copilot-message-bubble {
+    max-width: 88%;
+  }
+  .copilot-suggestion-pill {
+    padding: 5px 10px !important;
+    font-size: 11px !important;
+  }
+  .copilot-input-form {
+    padding: 8px 12px !important;
+    gap: 8px !important;
+    margin-top: 10px !important;
+  }
+  .copilot-textarea {
+    font-size: 12.5px !important;
   }
 }
 

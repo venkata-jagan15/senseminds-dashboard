@@ -118,7 +118,7 @@ export default function DashboardView({ scrubbers, onSelectScrubber, onRefresh }
       {/* Summary Status Strip */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
         gap: '16px'
       }}>
         {/* Total Scrubbers */}
@@ -252,7 +252,7 @@ export default function DashboardView({ scrubbers, onSelectScrubber, onRefresh }
           border: '1px solid var(--border-color)',
           borderRadius: '10px',
           padding: '8px 14px',
-          minWidth: '280px',
+          minWidth: '200px',
           flex: '1 max-content'
         }}>
           <Search size={16} color="var(--text-dim)" />

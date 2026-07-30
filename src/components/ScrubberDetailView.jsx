@@ -441,7 +441,7 @@ export default function ScrubberDetailView({ scrubber, alerts, onBack, onResolve
       {/* Grid Row: AI Observations & Recommended Actions */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
         gap: '18px'
       }}>
         {/* AI-Generated Observations */}
@@ -532,7 +532,7 @@ export default function ScrubberDetailView({ scrubber, alerts, onBack, onResolve
       {/* Grid Row: Sensor Details & Maintenance History */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
         gap: '18px'
       }}>
         {/* Sensor Details Card */}

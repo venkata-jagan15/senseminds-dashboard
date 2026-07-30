@@ -141,7 +141,7 @@ export default function AlertsView({ alerts, onToggleAlertStatus, onSelectScrubb
           border: '1px solid var(--border-color)',
           borderRadius: '10px',
           padding: '8px 14px',
-          minWidth: '280px',
+          minWidth: '200px',
           flex: '1 max-content'
         }}>
           <Search size={16} color="var(--text-dim)" />
