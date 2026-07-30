@@ -25,12 +25,12 @@ export default function Header({ onSimulate, activeAlerts, onRefresh }) {
             src={logoImg}
             alt="Logo"
             style={{
-              width: '46px',
-              height: '46px',
-              borderRadius: '10px',
+              width: '110px',
+              height: '110px',
+              borderRadius: '16px',
               objectFit: 'contain',
-              boxShadow: '0 0 16px rgba(20, 184, 166, 0.5)',
-              border: '1px solid rgba(45, 212, 191, 0.4)',
+              boxShadow: '0 0 24px rgba(20, 184, 166, 0.7)',
+              border: '2px solid rgba(45, 212, 191, 0.5)',
               background: '#ffffff'
             }}
           />
@@ -68,7 +68,7 @@ export default function Header({ onSimulate, activeAlerts, onRefresh }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: '3px' }}>
               <span style={{ fontSize: '12px', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '4px' }}>
                 <span className="pulse-dot pulse-dot-green"></span>
-                Laurus Labs Unit 1 • Operations Center
+                Unit 1 • Operations Center
               </span>
               <span style={{ fontSize: '12px', color: 'var(--text-dim)' }}>•</span>
               <span style={{ fontSize: '12px', color: 'var(--accent-cyan)', fontFamily: 'var(--font-mono)' }}>

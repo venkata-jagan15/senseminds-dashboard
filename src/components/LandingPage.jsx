@@ -34,37 +34,31 @@ export default function LandingPage({ onEnterDashboard }) {
           paddingBottom: '20px'
         }}>
           {/* Logo and Brand */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
             <img
               src={logoImg}
               alt="Logo"
               style={{
-                width: '36px',
-                height: '36px',
-                borderRadius: '8px',
+                width: '110px',
+                height: '110px',
+                borderRadius: '16px',
                 objectFit: 'contain',
-                boxShadow: '0 4px 15px rgba(2, 132, 199, 0.4)',
-                border: '1px solid rgba(255, 255, 255, 0.1)',
+                boxShadow: '0 6px 20px rgba(2, 132, 199, 0.5)',
+                border: '2px solid rgba(255, 255, 255, 0.25)',
                 background: '#ffffff'
               }}
             />
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span style={{
-                fontSize: '18px',
+                fontSize: '15px',
                 fontWeight: 800,
                 fontFamily: 'var(--font-heading)',
-                letterSpacing: '0.8px',
-                color: '#ffffff'
-              }}>
-                LAURUS <span style={{ color: '#0284C7' }}>Labs</span>
-              </span>
-              <span style={{
-                fontSize: '10px',
-                color: '#0d9488',
-                fontWeight: 700,
                 letterSpacing: '1px',
                 textTransform: 'uppercase',
-                marginTop: '-2px'
+                background: 'linear-gradient(135deg, #14B8A6 0%, #38bdf8 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                display: 'inline-block'
               }}>
                 Knowledge. Innovation. Excellence
               </span>
@@ -331,7 +325,7 @@ export default function LandingPage({ onEnterDashboard }) {
           color: 'rgba(255,255,255,0.4)',
           letterSpacing: '0.5px'
         }}>
-          Authorized Personnel Only • Laurus Labs Environmental Compliance
+          Authorized Personnel Only • Environmental Compliance
         </footer>
 
       </div>
@@ -391,37 +385,31 @@ export default function LandingPage({ onEnterDashboard }) {
         width: '100%',
         animation: 'fadeInTitle 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards'
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
           <img
             src={logoImg}
             alt="Logo"
             style={{
-              width: '36px',
-              height: '36px',
-              borderRadius: '8px',
+              width: '110px',
+              height: '110px',
+              borderRadius: '16px',
               objectFit: 'contain',
-              boxShadow: '0 4px 15px rgba(2, 132, 199, 0.4)',
-              border: '1px solid rgba(255, 255, 255, 0.1)',
+              boxShadow: '0 6px 20px rgba(2, 132, 199, 0.5)',
+              border: '2px solid rgba(255, 255, 255, 0.25)',
               background: '#ffffff'
             }}
           />
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{
-              fontSize: '18px',
+              fontSize: '15px',
               fontWeight: 800,
               fontFamily: 'var(--font-heading)',
-              letterSpacing: '0.8px',
-              color: '#ffffff'
-            }}>
-              LAURUS <span style={{ color: '#0284C7' }}>Labs</span>
-            </span>
-            <span style={{
-              fontSize: '10px',
-              color: '#0d9488',
-              fontWeight: 700,
               letterSpacing: '1px',
               textTransform: 'uppercase',
-              marginTop: '-2px'
+              background: 'linear-gradient(135deg, #14B8A6 0%, #38bdf8 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              display: 'inline-block'
             }}>
               Knowledge. Innovation. Excellence
             </span>
@@ -466,10 +454,8 @@ export default function LandingPage({ onEnterDashboard }) {
             WebkitTextFillColor: 'transparent',
             fontWeight: 900
           }}>
-            Laurus Labs
+            Environmental Intelligence Platform
           </span>
-          <br />
-          Environmental Intelligence Platform
         </h1>
 
         {/* Subtitle */}

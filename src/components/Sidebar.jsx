@@ -67,12 +67,12 @@ export default function Sidebar({ activeTab, setActiveTab, activeAlertsCount, sc
               src={logoImg}
               alt="SenseMinds Logo"
               style={{
-                width: '40px',
-                height: '40px',
-                borderRadius: '10px',
+                width: '100px',
+                height: '100px',
+                borderRadius: '16px',
                 objectFit: 'contain',
-                boxShadow: '0 4px 15px rgba(21, 101, 192, 0.3)',
-                background: '#ffffff' // Adding white background just in case logo has transparent background and expects white
+                boxShadow: '0 8px 24px rgba(21, 101, 192, 0.5)',
+                background: '#ffffff'
               }}
             />
             <div>

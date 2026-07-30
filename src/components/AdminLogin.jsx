@@ -97,37 +97,31 @@ export default function AdminLogin({ onLoginSuccess }) {
         <div className="login-left-branding" style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
           
           {/* Logo */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
             <img
               src={logoImg}
               alt="Logo"
               style={{
-                width: '38px',
-                height: '38px',
-                borderRadius: '8px',
+                width: '110px',
+                height: '110px',
+                borderRadius: '16px',
                 objectFit: 'contain',
-                boxShadow: '0 4px 15px rgba(37, 99, 235, 0.4)',
-                border: '1px solid rgba(255, 255, 255, 0.15)',
+                boxShadow: '0 8px 24px rgba(37, 99, 235, 0.5)',
+                border: '2px solid rgba(255, 255, 255, 0.25)',
                 background: '#ffffff'
               }}
             />
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span style={{
-                fontSize: '20px',
+                fontSize: '16px',
                 fontWeight: 800,
                 fontFamily: 'var(--font-heading)',
-                letterSpacing: '0.8px',
-                color: '#ffffff'
-              }}>
-                LAURUS <span style={{ color: '#2563EB' }}>Labs</span>
-              </span>
-              <span style={{
-                fontSize: '10px',
-                color: '#10B981',
-                fontWeight: 700,
-                letterSpacing: '1px',
+                letterSpacing: '1.2px',
                 textTransform: 'uppercase',
-                marginTop: '-2px'
+                background: 'linear-gradient(135deg, #10B981 0%, #38BDF8 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                display: 'inline-block'
               }}>
                 Compliance & Quality Assurance
               </span>
@@ -142,7 +136,9 @@ export default function AdminLogin({ onLoginSuccess }) {
               fontWeight: 800,
               lineHeight: '1.15',
               marginBottom: '10px',
-              color: '#ffffff'
+              background: 'linear-gradient(135deg, #ffffff 0%, #38BDF8 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent'
             }}>
               Environmental <br/>
               Intelligence Platform
@@ -250,26 +246,31 @@ export default function AdminLogin({ onLoginSuccess }) {
           {/* Card Header */}
           <div style={{ textAlign: 'center' }}>
             {/* Mobile-only logo */}
-            <div className="login-mobile-logo" style={{ display: 'none', justifyContent: 'center', alignItems: 'center', marginBottom: '14px' }}>
+            <div className="login-mobile-logo" style={{ display: 'none', justifyContent: 'center', alignItems: 'center', marginBottom: '14px', gap: '12px' }}>
               <img
                 src={logoImg}
                 alt="Logo"
                 style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '6px',
+                  width: '90px',
+                  height: '90px',
+                  borderRadius: '14px',
                   objectFit: 'contain',
                   background: '#ffffff',
-                  boxShadow: '0 4px 15px rgba(2, 132, 199, 0.4)',
-                  border: '1px solid rgba(255, 255, 255, 0.1)',
-                  marginRight: '8px'
+                  boxShadow: '0 6px 20px rgba(2, 132, 199, 0.45)',
+                  border: '1.5px solid rgba(255, 255, 255, 0.15)'
                 }}
               />
               <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'left' }}>
-                <span style={{ fontSize: '15px', fontWeight: 800, fontFamily: 'var(--font-heading)', letterSpacing: '0.5px', color: '#ffffff' }}>
-                  LAURUS <span style={{ color: '#0284C7' }}>Labs</span>
-                </span>
-                <span style={{ fontSize: '8px', color: '#0d9488', fontWeight: 700, letterSpacing: '0.5px', textTransform: 'uppercase', marginTop: '-2px' }}>
+                <span style={{
+                  fontSize: '13px',
+                  fontWeight: 800,
+                  fontFamily: 'var(--font-heading)',
+                  letterSpacing: '0.5px',
+                  background: 'linear-gradient(135deg, #10B981 0%, #0284C7 100%)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  display: 'inline-block'
+                }}>
                   Compliance & Quality
                 </span>
               </div>
@@ -500,7 +501,7 @@ export default function AdminLogin({ onLoginSuccess }) {
         fontWeight: 600,
         zIndex: 10
       }}>
-        Authorized Personnel Only • Laurus Labs Environmental Compliance
+        Authorized Personnel Only • Environmental Compliance
       </footer>
 
     </div>
